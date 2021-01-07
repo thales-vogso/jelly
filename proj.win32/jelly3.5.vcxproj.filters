@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{0ed1b613-68b2-4fb8-8e36-3fa162799781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cache">
+      <UniqueIdentifier>{cb1dfeb2-3813-44c0-849a-88d92e99b269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\db">
+      <UniqueIdentifier>{9a5ba0f5-22c8-4d90-a38b-9151c04c92b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{31f1220b-2bb3-4dbe-b888-21ea0e2b0580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loading">
+      <UniqueIdentifier>{c775ba1e-9115-4f48-bdaa-d4bc6646d0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\popup">
+      <UniqueIdentifier>{11e3b86d-3622-45de-b657-08a461709de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AndroidPurchase">
+      <UniqueIdentifier>{2ab34f7e-eb81-4e48-8ecd-add9677f93cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{7defffd6-0d6a-4963-975d-edfd5064f4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\guide">
+      <UniqueIdentifier>{2f4f093b-0b8a-4868-8fbf-5c6d6aed1ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Cocos2dx">
+      <UniqueIdentifier>{f793c1fd-ab8c-45ee-bce3-731bc48e4a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Cocos2dx\Common">
+      <UniqueIdentifier>{27ec62e2-fed0-4eb6-b72f-8a9cd1d0be98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Cocos2dx\ShareButton">
+      <UniqueIdentifier>{357f67ce-8a12-4117-b623-43a6731edb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HttpManager">
+      <UniqueIdentifier>{b3c0a57a-9ba3-4637-b871-43a5985d44bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MD5">
+      <UniqueIdentifier>{6ebede79-99a7-46a2-ae8e-d8c15b2932fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{f40e58f9-1baf-46d2-91e3-bf9424ae1b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\utils">
+      <UniqueIdentifier>{17a8abd5-de45-4421-b139-067d160bc8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoSDK">
+      <UniqueIdentifier>{71003074-1c17-4f72-8b73-4d558f3d2194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes">
+      <UniqueIdentifier>{6b40625b-8bcd-49a1-83e3-59f7db574175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\adchina">
+      <UniqueIdentifier>{a161565f-bfe5-489e-80c8-323c25fdaee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\animation">
+      <UniqueIdentifier>{6dd7bff0-5dc4-41c3-88f1-afcc9a2c88e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\FullScreen">
+      <UniqueIdentifier>{1dcd4508-8148-4d53-83f6-4809a34eefad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert">
+      <UniqueIdentifier>{be433a6a-cf9c-424c-94e5-c33f312a312a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\FullScreen\fullscreenImg">
+      <UniqueIdentifier>{082c9aec-06e1-473e-8d9a-54d16152257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\High">
+      <UniqueIdentifier>{c2ba3a71-33f0-49b4-81c3-6756796ad457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\Normal">
+      <UniqueIdentifier>{882d6102-7612-4044-8932-3115eacb3d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\Normal\adsmogo_clk">
+      <UniqueIdentifier>{0555c5d9-4f02-4d95-bf6d-855a6d080400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser">
+      <UniqueIdentifier>{b6a48e9d-13cf-4ef8-957f-deed93f4bef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser\High">
+      <UniqueIdentifier>{fa264e7a-0f73-43bb-917b-ad43d625f257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser\ipad">
+      <UniqueIdentifier>{aab39750-6b16-4786-a2b6-9a64f74174a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser\ipad\High">
+      <UniqueIdentifier>{6f0231db-7fe4-47b9-bb4c-77aeb1532dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser\ipad\Normal">
+      <UniqueIdentifier>{cc7c12fa-a03d-4cb5-867b-7817a75236e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AdsMoGoRes\WebBrowser\Normal">
+      <UniqueIdentifier>{a2be21ad-e3ec-4001-bbc5-0f96a2880e3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Background.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Fish.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Game.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameEntity.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GoldUI.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ItemUI.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Line.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\PopFly.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ScoreUI.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\TimeFly.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\TimeUI.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\UmGameUI.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cache\Fish.cpp">
+      <Filter>src\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cache\Music.cpp">
+      <Filter>src\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\db\DBConnector.cpp">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\db\DBSqlite.cpp">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\db\sqlite3.c">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\db\Table.cpp">
+      <Filter>src\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\Game.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\Item.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\Shop.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\UmGame.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\User.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loading\Loader.cpp">
+      <Filter>src\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loading\Loading.cpp">
+      <Filter>src\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loading\Logo.cpp">
+      <Filter>src\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\loading\TinyLoadingPop.cpp">
+      <Filter>src\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\AdBlock.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\CoverSave.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\EmptySave.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\EndlessUnlock.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Fail.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\GoldShop.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\HintInfo.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Info.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\ItemInfo.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\ItemShop.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\LoadSave.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Pause.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\PopUp.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Quit.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\QuitGame.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Replay.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Save.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Skip.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\Success.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\TeachPause.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popup\TimeItem.cpp">
+      <Filter>src\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AndroidPurchase\PurchaseManager.cpp">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\main\Gateway.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\main\Main.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\main\Setting.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\Guide.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\NewbieTeach.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\TeachEntity.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\guide\TeachGame.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AndroidPurchase\AndroidSDKHelper.cpp">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AndroidPurchase\ShareEditView.cpp">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.cpp">
+      <Filter>src\Cocos2dx\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.cpp">
+      <Filter>src\Cocos2dx\ShareButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\PaymentLayer.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\SpecialOfferLayer.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HttpManager\HttpManager.cpp">
+      <Filter>src\HttpManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MD5\CMD5Checksum.cpp">
+      <Filter>src\MD5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Background.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Fish.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Game.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameEntity.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GoldUI.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ItemUI.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Line.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\PopFly.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ScoreUI.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\TimeFly.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\TimeUI.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\UmGameUI.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cache\Fish.h">
+      <Filter>src\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cache\Music.h">
+      <Filter>src\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\db\DBConnector.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\db\DBSqlite.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\db\sqlite3.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\db\Table.h">
+      <Filter>src\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Game.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Item.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Shop.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\UmGame.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\User.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loading\Loader.h">
+      <Filter>src\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loading\Loading.h">
+      <Filter>src\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loading\Logo.h">
+      <Filter>src\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\loading\TinyLoadingPop.h">
+      <Filter>src\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\AdBlock.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\CoverSave.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\EmptySave.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\EndlessUnlock.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Fail.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\GoldShop.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\HintInfo.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Info.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\ItemInfo.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\ItemShop.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\LoadSave.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Pause.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\PopBase.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\PopUp.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Quit.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\QuitGame.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Replay.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Save.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Skip.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\Success.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\TeachPause.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popup\TimeItem.h">
+      <Filter>src\popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AndroidPurchase\PurchaseManager.h">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AndroidPurchase\PurchaseManagerDefine.h">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\main\Gateway.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\main\Main.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\main\Setting.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\Guide.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\NewbieTeach.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\TeachEntity.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\guide\TeachGame.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AndroidPurchase\AndroidSDKHelper.h">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AndroidPurchase\ShareEditView.h">
+      <Filter>src\AndroidPurchase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.h">
+      <Filter>src\Cocos2dx\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMTypeDef.h">
+      <Filter>src\Cocos2dx\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.h">
+      <Filter>src\Cocos2dx\ShareButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\PaymentLayer.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\SpecialOfferLayer.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HttpManager\HttpManager.h">
+      <Filter>src\HttpManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MD5\CMD5Checksum.h">
+      <Filter>src\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MD5\MD5ChecksumDefines.h">
+      <Filter>src\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\utils\AdsmogoBanner.h">
+      <Filter>src\utils\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\utils\AdsMogoInterstitial.h">
+      <Filter>src\utils\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdFeed.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIBannerNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIInterstitialNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPISDKNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPISplashNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIVideoNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdapterCustomEvent.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkAdapter.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkAdapter+Helpers.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkConfig.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkInterstitialAdapter.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKBannerNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKInterstitialNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKSplashNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKVideoNetworkRegistry.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAppUpdateRemind.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAppUpdateRemindDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoClassWrapper.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoConfigData.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoConfigDataCenter.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMogoConfigDic.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCore.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCoreTimerFireDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCountryCodeHelper.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCountryCodeHelperIOS5.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoDelegateProtocol.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoDeviceInfoHelper.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoFullScreenAdapterCustomEvent.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitial.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitialDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitialManager.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoLocationDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoLogCenter.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoReachability.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashAds.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashAdsDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashConfigInfDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoView.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoViewAnimationDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowserControllerUserDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdsMoGoFeedsLib.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdViewType.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AMNetworkReachabilityDelegate.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AMNetworkReachabilityWrapper.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\NSMutableDictionary+AdsMogoDic.h">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MobClickCpp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\plat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\utils\utils\AdsmogoBanner.mm">
+      <Filter>src\utils\utils</Filter>
+    </None>
+    <None Include="..\Classes\utils\utils\AdsMogoInterstitial.mm">
+      <Filter>src\utils\utils</Filter>
+    </None>
+    <None Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowser.xib">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </None>
+    <None Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowser_ipad.xib">
+      <Filter>src\AdsMoGoSDK</Filter>
+    </None>
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\adsMoGoFullScreen.html">
+      <Filter>src\AdsMoGoRes\FullScreen</Filter>
+    </None>
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\adsMoGoInterstitial.html">
+      <Filter>src\AdsMoGoRes\FullScreen</Filter>
+    </None>
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\mogoVideo.html">
+      <Filter>src\AdsMoGoRes\FullScreen</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_btnconfirm.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_btnconfirm2.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_closeButton.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_closeButton%402x.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_full_backgrand.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_stoploading.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_stoploading%402x.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_toolbar.png">
+      <Filter>src\AdsMoGoRes\adchina</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\animation\adsmogo_star.png">
+      <Filter>src\AdsMoGoRes\animation</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\animation\adsmogo_star%402x.png">
+      <Filter>src\AdsMoGoRes\animation</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert\ads_alert_left_button.png">
+      <Filter>src\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert\ads_alert_right_button.png">
+      <Filter>src\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\fullscreenImg\loading.gif">
+      <Filter>src\AdsMoGoRes\FullScreen\fullscreenImg</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\adsmogo_fsclosebtn.png">
+      <Filter>src\AdsMoGoRes\FullScreen</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\adsmogo_fsclosebtn%402x.png">
+      <Filter>src\AdsMoGoRes\FullScreen</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_adclose%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerbg%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerface95.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerface305.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_btnbg%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_close%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_corner%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_picrollbg%402x.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_rm_closeBtn.png">
+      <Filter>src\AdsMoGoRes\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-320x50.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-468x60.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-640x100.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-728x90.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-960x150.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-1242x169.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-320x50.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-468x60.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-640x100.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-728x90.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-960x150.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-1242x169.gif">
+      <Filter>src\AdsMoGoRes\Normal\adsmogo_clk</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_adclose.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_bannerbg.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_bannerface50.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_btnbg.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_close.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_corner.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_picrollbg.png">
+      <Filter>src\AdsMoGoRes\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\bg%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\hengtiao%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\mail%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\safari%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewfoot_bg%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewhead_bg%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewhead_icon%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\sms%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back_grey%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back_hover%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_close%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_close_hover%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next_grey%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next_hover%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_pause%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_pause_hover%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_refresh%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_refresh_hover%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_share%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\bg_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_back_grey_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_back_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_close_hover_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_close_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_next_grey_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_next_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_pause_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_refresh_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_share_ipad%402x.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\High</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\bg_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_back_grey_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_back_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_close_hover_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_close_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_next_grey_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_next_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_pause_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_refresh_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_share_ipad.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\ipad\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\bg.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\hengtiao.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\mail.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\safari.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewfoot_bg.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewhead_bg.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewhead_icon.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\sms.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_back.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_back_grey.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_close.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_close_hover.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_next.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_next_grey.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_pause.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_refresh.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_share.png">
+      <Filter>src\AdsMoGoRes\WebBrowser\Normal</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,341 @@
+<Solution>
+  <PropertyGroup Name="jelly3.5" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="pic">
+          <Folder Name="candy">
+            <Image Name="candy_blue.png" />
+            <Image Name="candy_blue1.png" />
+            <Image Name="candy_blue2.png" />
+            <Image Name="candy_blue_mh.png" />
+            <Image Name="candy_disco_1.png" />
+            <Image Name="candy_disco_2.png" />
+            <Image Name="candy_disco_3.png" />
+            <Image Name="candy_disco_4.png" />
+            <Image Name="candy_disco_5.png" />
+            <Image Name="candy_disco_cap1.png" />
+            <Image Name="candy_disco_cap2.png" />
+            <Image Name="candy_eye.png" />
+            <Image Name="candy_eye1.png" />
+            <Image Name="candy_eye2.png" />
+            <Image Name="candy_eye_mh.png" />
+            <Image Name="candy_green.png" />
+            <Image Name="candy_green_mh.png" />
+            <Image Name="candy_pink.png" />
+            <Image Name="candy_red.png" />
+            <Image Name="candy_red1.png" />
+            <Image Name="candy_red_mh.png" />
+            <Image Name="candy_tm.png" />
+            <Image Name="candy_yellow.png" />
+          </Folder>
+          <Folder Name="longbao">
+            <Image Name="blue.png" />
+            <Image Name="brown.png" />
+            <Image Name="candy_tiao.png" />
+            <Image Name="circle_black32.png" />
+            <Image Name="dabao.png" />
+            <Image Name="green.png" />
+            <Image Name="pink.png" />
+            <Folder Name="baozha">
+              <Image Name="baozha_cheng_01.png" />
+              <Image Name="baozha_cheng_02.png" />
+              <Image Name="baozha_cheng_03.png" />
+              <Image Name="baozha_cheng_04.png" />
+              <Image Name="baozha_cheng_05.png" />
+              <Image Name="baozha_fen_01.png" />
+              <Image Name="baozha_fen_02.png" />
+              <Image Name="baozha_fen_03.png" />
+              <Image Name="baozha_fen_04.png" />
+              <Image Name="baozha_fen_05.png" />
+              <Image Name="baozha_lan_01.png" />
+              <Image Name="baozha_lan_02.png" />
+              <Image Name="baozha_lan_03.png" />
+              <Image Name="baozha_lan_04.png" />
+              <Image Name="baozha_lan_05.png" />
+              <Image Name="baozha_lv_01.png" />
+              <Image Name="baozha_lv_02.png" />
+              <Image Name="baozha_lv_03.png" />
+              <Image Name="baozha_lv_04.png" />
+              <Image Name="baozha_lv_05.png" />
+            </Folder>
+            <Folder Name="ui">
+              <Image Name="cuping.png" />
+              <Image Name="cuping_gray.png" />
+              <Image Name="dasuan.png" />
+              <Image Name="dasuan_gray.png" />
+              <Image Name="kuaizi.png" />
+              <Image Name="kuaizi_gray.png" />
+            </Folder>
+            <Image Name="biaoti.png" />
+          </Folder>
+          <Folder Name="public">
+            <Image Name="candy_bq01.png" />
+            <Image Name="candy_bq01_d.png" />
+            <Image Name="candy_bq02.png" />
+            <Image Name="candy_bq03.png" />
+            <Image Name="candy_bq04.png" />
+            <Image Name="candy_bq05.png" />
+            <Image Name="candy_bq06.png" />
+            <Image Name="candy_bq07.png" />
+            <Image Name="candy_bq08.png" />
+            <Image Name="UM_A.png" />
+            <Image Name="UM_E.png" />
+            <Image Name="UM_G.png" />
+            <Image Name="UM_M.png" />
+            <Image Name="UM_U.png" />
+          </Folder>
+          <Folder Name="ui">
+            <Image Name="0000.png" />
+            <Image Name="0022.png" />
+            <Image Name="0030.png" />
+            <Image Name="0033.png" />
+            <Image Name="0100.png" />
+            <Image Name="2020.png" />
+            <Image Name="20ss.png" />
+            <Image Name="3333.png" />
+            <Image Name="3s.png" />
+            <Image Name="5555.png" />
+            <Image Name="add.png" />
+            <Image Name="add_shadow.png" />
+            <Image Name="anniu.png" />
+            <Image Name="back.png" />
+            <Image Name="back_shadow.png" />
+            <Image Name="bomb.png" />
+            <Image Name="circle.png" />
+            <Image Name="circle_black.png" />
+            <Image Name="circle_black2.png" />
+            <Image Name="circle_black3.png" />
+            <Image Name="circle_blue.png" />
+            <Image Name="circle_blue2.png" />
+            <Image Name="circle_red.png" />
+            <Image Name="circle_white.png" />
+            <Image Name="circle_white2_s.png" />
+            <Image Name="circle_white_l.png" />
+            <Image Name="circle_white_s.png" />
+            <Image Name="circle_yellow.png" />
+            <Image Name="close_redbg.png" />
+            <Image Name="close_x.png" />
+            <Image Name="close_x_shadow.png" />
+            <Image Name="cundang.png" />
+            <Image Name="cundang_shadow.png" />
+            <Image Name="cz_coin.png" />
+            <Image Name="cz_coin_shadow.png" />
+            <Image Name="cz_flower.png" />
+            <Image Name="cz_frame_1.png" />
+            <Image Name="cz_frame_2.png" />
+            <Image Name="cz_frame_3.png" />
+            <Image Name="cz_frame_4.png" />
+            <Image Name="cz_gray.png" />
+            <Image Name="cz_number.png" />
+            <Image Name="cz_rmb.png" />
+            <Image Name="cz_rmb_s.png" />
+            <Image Name="dianji.png" />
+            <Image Name="finger1.png" />
+            <Image Name="guanka_bg1.png" />
+            <Image Name="guanka_bg2.png" />
+            <Image Name="heiquan.png" />
+            <Image Name="hongse.png" />
+            <Image Name="jian.png" />
+            <Image Name="jiangli.png" />
+            <Image Name="kuaijin.png" />
+            <Image Name="lightning.png" />
+            <Image Name="loading_dot.png" />
+            <Image Name="loading_dot2.png" />
+            <Image Name="loading_g.png" />
+            <Image Name="loading_jdt.png" />
+            <Image Name="loading_jdtbg.png" />
+            <Image Name="loading_sd1.png" />
+            <Image Name="loading_sd2.png" />
+            <Image Name="loading_t.png" />
+            <Image Name="loading_th.png" />
+            <Image Name="loading_z.png" />
+            <Image Name="loading_zywbg.png" />
+            <Image Name="luoxuan.png" />
+            <Image Name="magic.png" />
+            <Image Name="meiguan.png" />
+            <Image Name="mmm.png" />
+            <Image Name="moren.png" />
+            <Image Name="moyao.png" />
+            <Image Name="moyao5.png" />
+            <Image Name="mubiao_cn.png" />
+            <Image Name="no.png" />
+            <Image Name="no_shadow.png" />
+            <Image Name="number_score_th.png" />
+            <Image Name="number_time.png" />
+            <Image Name="number_time2.png" />
+            <Image Name="number_white.png" />
+            <Image Name="number_white_bg_blue.png" />
+            <Image Name="number_white_bg_orange.png" />
+            <Image Name="number_white_bg_red.png" />
+            <Image Name="number_write2.png" />
+            <Image Name="off.png" />
+            <Image Name="off_shadow.png" />
+            <Image Name="okbg.png" />
+            <Image Name="on.png" />
+            <Image Name="on_shadow.png" />
+            <Image Name="pause.png" />
+            <Image Name="pause_shadow.png" />
+            <Image Name="play.png" />
+            <Image Name="play_shadow.png" />
+            <Image Name="refresh.png" />
+            <Image Name="refresh_shadow.png" />
+            <Image Name="setup.png" />
+            <Image Name="setup_shadow.png" />
+            <Image Name="shandianxia.png" />
+            <Image Name="shijian.png" />
+            <Image Name="shiyong.png" />
+            <Image Name="time.png" />
+            <Image Name="time_shadow.png" />
+            <Image Name="umgame.png" />
+            <Image Name="um_jiangli_bg.png" />
+            <Image Name="wenhao_red_s.png" />
+            <Image Name="wenhao_red_s_shadow.png" />
+            <Image Name="wenhao_white.png" />
+            <Image Name="wenhao_white_shadow.png" />
+            <Image Name="wujin.png" />
+            <Image Name="xiayibu.png" />
+            <Image Name="xinshoubangzhu.png" />
+            <Image Name="yanjing.png" />
+            <Image Name="yes.png" />
+            <Image Name="yes_shadow.png" />
+            <Image Name="yxqs_cg.png" />
+            <Image Name="yxqs_cg_bg.png" />
+            <Image Name="yxqs_cg_bg_gray.png" />
+            <Image Name="yxqs_line.png" />
+            <Image Name="yxqs_sb.png" />
+            <Image Name="zhadan.png" />
+            <Image Name="zhadanwenzi.png" />
+            <Image Name="write_0.png" />
+            <Image Name="bomb_gray.png" />
+            <Image Name="lightning_gray.png" />
+            <Image Name="magic_gray.png" />
+            <Image Name="number_white_bg_gray.png" />
+            <Image Name="cz_number2.png" />
+            <Image Name="number_score.png" />
+            <Image Name="number_time5.png" />
+            <Image Name="newmap.png" />
+            <Image Name="rw_star.png" />
+            <Folder Name="z">
+              <Image Name="adoff.png" />
+              <Image Name="anniu.png" />
+              <Image Name="close_redbg.png" />
+              <Image Name="close_x.png" />
+              <Image Name="close_x_shadow.png" />
+              <Image Name="dabeijing.png" />
+              <Image Name="jixuyouxi.png" />
+              <Image Name="lvse.png" />
+              <Image Name="okbg.png" />
+              <Image Name="phb_bg7.png" />
+              <Image Name="phb_top1.png" />
+              <Image Name="phb_top2.png" />
+              <Image Name="xiayibu.png" />
+              <Image Name="xuanzhong.png" />
+              <Image Name="youbian.png" />
+              <Image Name="zise.png" />
+            </Folder>
+            <Image Name="about.png" />
+            <Image Name="about_shadow.png" />
+            <Image Name="jixuyouxi.png" />
+          </Folder>
+          <Image Name="wujin_lock.png" />
+        </Folder>
+        <Folder Name="csb">
+          <Folder Name="candy">
+            <Project Name="candy_eye_cap.csd" Type="Node" />
+            <Project Name="candy_green_cap.csd" Type="Node" />
+            <Project Name="candy_green_cap_in.csd" Type="Node" />
+            <Project Name="candy_red_cap.csd" Type="Node" />
+            <Project Name="normal.csd" Type="Node" />
+            <Project Name="rage.csd" Type="Node" />
+            <Project Name="candy_disco_cap.csd" Type="Node" />
+            <Project Name="candy_disco_normal.csd" Type="Node" />
+            <Project Name="bq_01_d.csd" Type="Node" />
+            <Project Name="candy_blue_normal.csd" Type="Node" />
+          </Folder>
+          <Folder Name="game">
+            <Project Name="gold.csd" Type="Node" />
+            <Project Name="item.csd" Type="Node" />
+            <Project Name="jiangli.csd" Type="Node" />
+            <Project Name="timeui.csd" Type="Node" />
+            <Project Name="umgame.csd" Type="Node" />
+            <Project Name="score.csd" Type="Node" />
+          </Folder>
+          <Folder Name="guide">
+            <Project Name="bg.csd" Type="Node" />
+            <Project Name="skip.csd" Type="Node" />
+            <Project Name="step1.csd" Type="Node" />
+            <Project Name="step2loop.csd" Type="Node" />
+            <Project Name="step2newbee.csd" Type="Node" />
+            <Project Name="step3.csd" Type="Node" />
+            <Project Name="step4loop.csd" Type="Node" />
+            <Project Name="step4newbee.csd" Type="Node" />
+            <Project Name="step5.csd" Type="Node" />
+            <Project Name="guideingame.csd" Type="Node" />
+            <Project Name="guideingameca.csd" Type="Node" />
+          </Folder>
+          <Folder Name="longbao">
+            <Folder Name="guide">
+              <Project Name="bg.csd" Type="Node" />
+              <Project Name="step2newbee.csd" Type="Node" />
+              <Project Name="skip.csd" Type="Node" />
+              <Project Name="step1.csd" Type="Node" />
+              <Project Name="step5.csd" Type="Node" />
+              <Project Name="step2loop.csd" Type="Node" />
+              <Project Name="step3.csd" Type="Node" />
+              <Project Name="step4loop.csd" Type="Node" />
+              <Project Name="step4newbee.csd" Type="Node" />
+            </Folder>
+            <Folder Name="ui">
+              <Project Name="gateway.csd" Type="Node" />
+              <Project Name="gold.csd" Type="Node" />
+              <Project Name="loading.csd" Type="Scene" />
+              <Project Name="umgame.csd" Type="Node" />
+              <Project Name="itemshop.csd" Type="Node" />
+              <Project Name="item.csd" Type="Node" />
+            </Folder>
+            <Project Name="cap1.csd" Type="Node" />
+            <Project Name="cap2.csd" Type="Node" />
+            <Project Name="cap2_in.csd" Type="Node" />
+            <Project Name="cap3.csd" Type="Node" />
+            <Project Name="disco.csd" Type="Node" />
+            <Project Name="rage.csd" Type="Node" />
+            <Project Name="smile.csd" Type="Node" />
+            <Folder Name="baozha">
+              <Project Name="cheng.csd" Type="Layer" />
+              <Project Name="fen.csd" Type="Layer" />
+              <Project Name="lan.csd" Type="Layer" />
+              <Project Name="lv.csd" Type="Scene" />
+            </Folder>
+          </Folder>
+          <Folder Name="main">
+            <Project Name="black.csd" Type="Node" />
+            <Project Name="gateway.csd" Type="Node" />
+            <Project Name="loading.csd" Type="Scene" />
+            <Project Name="setting.csd" Type="Node" />
+          </Folder>
+          <Folder Name="popup">
+            <Project Name="bar.csd" Type="Node" />
+            <Project Name="coversave.csd" Type="Node" />
+            <Project Name="emptysave.csd" Type="Node" />
+            <Project Name="fail.csd" Type="Node" />
+            <Project Name="goldshop.csd" Type="Node" />
+            <Project Name="itemshop.csd" Type="Node" />
+            <Project Name="pause.csd" Type="Node" />
+            <Project Name="quit.csd" Type="Node" />
+            <Project Name="quitgame.csd" Type="Node" />
+            <Project Name="replay.csd" Type="Node" />
+            <Project Name="save.csd" Type="Node" />
+            <Project Name="success.csd" Type="Node" />
+            <Project Name="teachpause.csd" Type="Node" />
+            <Project Name="time.csd" Type="Node" />
+            <Project Name="goldshopcu.csd" Type="Node" />
+            <Project Name="adoff.csd" Type="Node" />
+            <Project Name="wujin.csd" Type="Node" />
+            <Project Name="info.csd" Type="Node" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

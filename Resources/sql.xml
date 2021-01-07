@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>user</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user` (
+  `uid` integer PRIMARY KEY AUTOINCREMENT,
+  `name` varchar(20) NOT NULL DEFAULT '',
+  `gold` integer NOT NULL DEFAULT 0,
+  `ip` char(16) NOT NULL DEFAULT '0.0.0.0',
+  `dev` varchar(200) NOT NULL DEFAULT '',
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+);create unique index uk on `user` (`name`)
+      ]]>
+      </string>
+      <key>userDevice</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user_device` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `user_id` integer NOT NULL DEFAULT 0,
+  `dev` varchar(200) NOT NULL DEFAULT '',
+  `ip` char(16) NOT NULL DEFAULT '0.0.0.0',
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+)
+      ]]>
+      </string>
+      <key>user_game</key>
+      <string>
+        <![CDATA[
+CREATE TABLE `user_game` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `uid` integer NOT NULL DEFAULT 0,
+  `stage` integer NOT NULL DEFAULT 0,
+  `score` integer NOT NULL DEFAULT 0,
+  `time` integer NOT NULL DEFAULT 0,
+  `useTimeItem` bool NOT NULL DEFAULT FALSE,
+  `useRage` bool NOT NULL DEFAULT FALSE
+);CREATE UNIQUE INDEX `user_game_uid` on `user_game` (`uid`)
+      ]]>
+      </string>
+      <key>user_game_log</key>
+      <string>
+        <![CDATA[
+CREATE TABLE `user_game_log` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `user_game_id` integer NOT NULL DEFAULT 0,
+  `stage` integer NOT NULL DEFAULT 0,
+  `score` integer NOT NULL DEFAULT 0,
+  `time` integer NOT NULL DEFAULT 0
+);CREATE UNIQUE INDEX `user_game_uinque` on `user_game_log` (`user_game_id`, `stage`)
+      ]]>
+      </string>
+      <key>game_save</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `game_save` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `uid` integer NOT NULL DEFAULT 0,
+  `stage` integer NOT NULL DEFAULT 0,
+  `score` integer NOT NULL DEFAULT 0,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+)
+      ]]>
+      </string>
+      <key>game_fish</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `game_fish` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `type` integer NOT NULL DEFAULT 0,
+  `award` char(5) NOT NULL DEFAULT '',
+  `x` integer NOT NULL DEFAULT 0,
+  `y` integer NOT NULL DEFAULT 0,
+  `time` integer NOT NULL DEFAULT 0
+);CREATE INDEX `coord` on `game_fish` (`x`, `y`)
+      ]]>
+      </string>
+      <key>user_item</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user_item` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `uid` integer NOT NULL DEFAULT 0,
+  `item_id` integer NOT NULL DEFAULT 0,
+  `num` integer NOT NULL DEFAULT 5,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+);CREATE INDEX `item_id` on `user_item` (`item_id`)
+      ]]>
+      </string>
+      <key>user_item_log</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user_item_log` (
+  `id` integer PRIMARY KEY AUTOINCREMENT,
+  `uid` integer NOT NULL DEFAULT 0,
+  `item_id` integer NOT NULL DEFAULT 0,
+  `num` integer NOT NULL DEFAULT 0,
+  `method` integer NOT NULL DEFAULT 0,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+);CREATE INDEX `item_id` on `user_item_log` (`item_id`);CREATE INDEX `num` on `user_item_log` (`num`)
+      ]]>
+      </string>
+      <key>user_setting</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user_setting` (
+  `uid` integer PRIMARY KEY,
+  `bgm` integer NOT NULL DEFAULT 1,
+  `se` integer NOT NULL DEFAULT 1,
+  `guide` integer NOT NULL DEFAULT 1,
+  `first` integer NOT NULL DEFAULT 1,
+  `libao` integer NOT NULL DEFAULT 1,
+  `firstlevel` BOOL NOT NULL DEFAULT TRUE,
+  `firstthress` BOOL NOT NULL DEFAULT TRUE,
+  `firstfail` BOOL NOT NULL DEFAULT TRUE,
+  `firstletter` BOOL NOT NULL DEFAULT TRUE,
+  `firstfullletter` BOOL NOT NULL DEFAULT TRUE,
+  `firstshing` BOOL NOT NULL DEFAULT TRUE,
+  `firsttimeitem` BOOL NOT NULL DEFAULT TRUE,
+  `firstbomb` BOOL NOT NULL DEFAULT TRUE,
+  `SHOWBOMB` BOOL NOT NULL DEFAULT TRUE,
+  `SHOWSHOCK` BOOL NOT NULL DEFAULT TRUE,
+  `SHOWRAGE` BOOL NOT NULL DEFAULT TRUE,
+  `adblock` BOOL NOT NULL DEFAULT FALSE,
+  `endlesslock` BOOL NOT NULL DEFAULT TRUE
+)
+    ]]>
+      </string>
+      <key>goods</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `goods` (
+  `gid` integer PRIMARY KEY AUTOINCREMENT,
+  `goodid` integer NOT NULL DEFAULT 0,
+  `name` varchar(20) NOT NULL DEFAULT '',
+  `num` integer NOT NULL DEFAULT 0,
+  `price` integer NOT NULL DEFAULT 0,
+  `goodtype` integer NOT NULL DEFAULT 0,
+  `pricetype` integer NOT NULL DEFAULT 0
+)
+    ]]>
+      </string>
+      <key>umgame</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `umgame` (
+  `uid` integer PRIMARY KEY,
+  `u` integer NOT NULL DEFAULT 0,
+  `m` integer NOT NULL DEFAULT 0,
+  `g` integer NOT NULL DEFAULT 0,
+  `a` integer NOT NULL DEFAULT 0,
+  `e` integer NOT NULL DEFAULT 0
+)
+    ]]>
+      </string>
+      <key>user_bombfish_log</key>
+      <string>
+        <![CDATA[
+CREATE TABLE IF NOT EXISTS `user_bombfish_log` (
+  `id`integer PRIMARY KEY AUTOINCREMENT,
+  `game_id` integer NOT NULL DEFAULT 0,
+  `num` integer NOT NULL DEFAULT 0,
+  `time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+)
+    ]]>
+      </string>
+    </dict>
+  </array>
+</plist>

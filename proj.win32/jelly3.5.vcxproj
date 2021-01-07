@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\\cocos\2d\cocos2dx.props" />
+    <Import Project="$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\\cocos\2d\cocos2dx.props" />
+    <Import Project="$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\cocos\audio\include;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\external;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\external\chipmunk\include\chipmunk;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\extensions;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\prebuilt\win32\*.*" "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
+</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\cocos\audio\include;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\external;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\external\chipmunk\include\chipmunk;$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl_imp.lib;websockets.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(COCOS_FRAMEWORKS)\cocos2d-x-3.5\prebuilt\win32\*.*" "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
+</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AndroidPurchase\AndroidSDKHelper.cpp" />
+    <ClCompile Include="..\Classes\AndroidPurchase\PurchaseManager.cpp" />
+    <ClCompile Include="..\Classes\AndroidPurchase\ShareEditView.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\cache\Fish.cpp" />
+    <ClCompile Include="..\Classes\cache\Music.cpp" />
+    <ClCompile Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.cpp" />
+    <ClCompile Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.cpp" />
+    <ClCompile Include="..\Classes\data\Game.cpp" />
+    <ClCompile Include="..\Classes\data\Item.cpp" />
+    <ClCompile Include="..\Classes\data\Shop.cpp" />
+    <ClCompile Include="..\Classes\data\UmGame.cpp" />
+    <ClCompile Include="..\Classes\data\User.cpp" />
+    <ClCompile Include="..\Classes\db\DBConnector.cpp" />
+    <ClCompile Include="..\Classes\db\DBSqlite.cpp" />
+    <ClCompile Include="..\Classes\db\sqlite3.c" />
+    <ClCompile Include="..\Classes\db\Table.cpp" />
+    <ClCompile Include="..\Classes\game\Background.cpp" />
+    <ClCompile Include="..\Classes\game\Fish.cpp" />
+    <ClCompile Include="..\Classes\game\Game.cpp" />
+    <ClCompile Include="..\Classes\game\GameEntity.cpp" />
+    <ClCompile Include="..\Classes\game\GoldUI.cpp" />
+    <ClCompile Include="..\Classes\game\ItemUI.cpp" />
+    <ClCompile Include="..\Classes\game\Line.cpp" />
+    <ClCompile Include="..\Classes\game\PaymentLayer.cpp" />
+    <ClCompile Include="..\Classes\game\PopFly.cpp" />
+    <ClCompile Include="..\Classes\game\ScoreUI.cpp" />
+    <ClCompile Include="..\Classes\game\SpecialOfferLayer.cpp" />
+    <ClCompile Include="..\Classes\game\TimeFly.cpp" />
+    <ClCompile Include="..\Classes\game\TimeUI.cpp" />
+    <ClCompile Include="..\Classes\game\UmGameUI.cpp" />
+    <ClCompile Include="..\Classes\guide\Guide.cpp" />
+    <ClCompile Include="..\Classes\guide\NewbieTeach.cpp" />
+    <ClCompile Include="..\Classes\guide\TeachEntity.cpp" />
+    <ClCompile Include="..\Classes\guide\TeachGame.cpp" />
+    <ClCompile Include="..\Classes\HttpManager\HttpManager.cpp" />
+    <ClCompile Include="..\Classes\loading\Loader.cpp" />
+    <ClCompile Include="..\Classes\loading\Loading.cpp" />
+    <ClCompile Include="..\Classes\loading\Logo.cpp" />
+    <ClCompile Include="..\Classes\loading\TinyLoadingPop.cpp" />
+    <ClCompile Include="..\Classes\main\Gateway.cpp" />
+    <ClCompile Include="..\Classes\main\Main.cpp" />
+    <ClCompile Include="..\Classes\main\Setting.cpp" />
+    <ClCompile Include="..\Classes\MD5\CMD5Checksum.cpp" />
+    <ClCompile Include="..\Classes\popup\AdBlock.cpp" />
+    <ClCompile Include="..\Classes\popup\CoverSave.cpp" />
+    <ClCompile Include="..\Classes\popup\EmptySave.cpp" />
+    <ClCompile Include="..\Classes\popup\EndlessUnlock.cpp" />
+    <ClCompile Include="..\Classes\popup\Fail.cpp" />
+    <ClCompile Include="..\Classes\popup\GoldShop.cpp" />
+    <ClCompile Include="..\Classes\popup\HintInfo.cpp" />
+    <ClCompile Include="..\Classes\popup\Info.cpp" />
+    <ClCompile Include="..\Classes\popup\ItemInfo.cpp" />
+    <ClCompile Include="..\Classes\popup\ItemShop.cpp" />
+    <ClCompile Include="..\Classes\popup\LoadSave.cpp" />
+    <ClCompile Include="..\Classes\popup\Pause.cpp" />
+    <ClCompile Include="..\Classes\popup\PopUp.cpp" />
+    <ClCompile Include="..\Classes\popup\Quit.cpp" />
+    <ClCompile Include="..\Classes\popup\QuitGame.cpp" />
+    <ClCompile Include="..\Classes\popup\Replay.cpp" />
+    <ClCompile Include="..\Classes\popup\Save.cpp" />
+    <ClCompile Include="..\Classes\popup\Skip.cpp" />
+    <ClCompile Include="..\Classes\popup\Success.cpp" />
+    <ClCompile Include="..\Classes\popup\TeachPause.cpp" />
+    <ClCompile Include="..\Classes\popup\TimeItem.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdFeed.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIBannerNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIInterstitialNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPISDKNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPISplashNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdAPIVideoNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdapterCustomEvent.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkAdapter+Helpers.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkAdapter.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkConfig.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkInterstitialAdapter.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKBannerNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKInterstitialNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKSplashNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAdSDKVideoNetworkRegistry.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAppUpdateRemind.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoAppUpdateRemindDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoClassWrapper.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoConfigData.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoConfigDataCenter.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMogoConfigDic.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCore.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCoreTimerFireDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCountryCodeHelper.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoCountryCodeHelperIOS5.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoDelegateProtocol.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoDeviceInfoHelper.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoFullScreenAdapterCustomEvent.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitial.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitialDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoInterstitialManager.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoLocationDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoLogCenter.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoReachability.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashAds.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashAdsDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoSplashConfigInfDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoView.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoViewAnimationDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowserControllerUserDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdsMoGoFeedsLib.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AdViewType.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AMNetworkReachabilityDelegate.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\AMNetworkReachabilityWrapper.h" />
+    <ClInclude Include="..\Classes\AdsMoGoSDK\NSMutableDictionary+AdsMogoDic.h" />
+    <ClInclude Include="..\Classes\AndroidPurchase\AndroidSDKHelper.h" />
+    <ClInclude Include="..\Classes\AndroidPurchase\PurchaseManager.h" />
+    <ClInclude Include="..\Classes\AndroidPurchase\PurchaseManagerDefine.h" />
+    <ClInclude Include="..\Classes\AndroidPurchase\ShareEditView.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\cache\Fish.h" />
+    <ClInclude Include="..\Classes\cache\Music.h" />
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.h" />
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMTypeDef.h" />
+    <ClInclude Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.h" />
+    <ClInclude Include="..\Classes\data\Game.h" />
+    <ClInclude Include="..\Classes\data\Item.h" />
+    <ClInclude Include="..\Classes\data\Shop.h" />
+    <ClInclude Include="..\Classes\data\UmGame.h" />
+    <ClInclude Include="..\Classes\data\User.h" />
+    <ClInclude Include="..\Classes\db\DBConnector.h" />
+    <ClInclude Include="..\Classes\db\DBSqlite.h" />
+    <ClInclude Include="..\Classes\db\sqlite3.h" />
+    <ClInclude Include="..\Classes\db\Table.h" />
+    <ClInclude Include="..\Classes\game\Background.h" />
+    <ClInclude Include="..\Classes\game\Fish.h" />
+    <ClInclude Include="..\Classes\game\Game.h" />
+    <ClInclude Include="..\Classes\game\GameEntity.h" />
+    <ClInclude Include="..\Classes\game\GoldUI.h" />
+    <ClInclude Include="..\Classes\game\ItemUI.h" />
+    <ClInclude Include="..\Classes\game\Line.h" />
+    <ClInclude Include="..\Classes\game\PaymentLayer.h" />
+    <ClInclude Include="..\Classes\game\PopFly.h" />
+    <ClInclude Include="..\Classes\game\ScoreUI.h" />
+    <ClInclude Include="..\Classes\game\SpecialOfferLayer.h" />
+    <ClInclude Include="..\Classes\game\TimeFly.h" />
+    <ClInclude Include="..\Classes\game\TimeUI.h" />
+    <ClInclude Include="..\Classes\game\UmGameUI.h" />
+    <ClInclude Include="..\Classes\guide\Guide.h" />
+    <ClInclude Include="..\Classes\guide\NewbieTeach.h" />
+    <ClInclude Include="..\Classes\guide\TeachEntity.h" />
+    <ClInclude Include="..\Classes\guide\TeachGame.h" />
+    <ClInclude Include="..\Classes\HttpManager\HttpManager.h" />
+    <ClInclude Include="..\Classes\loading\Loader.h" />
+    <ClInclude Include="..\Classes\loading\Loading.h" />
+    <ClInclude Include="..\Classes\loading\Logo.h" />
+    <ClInclude Include="..\Classes\loading\TinyLoadingPop.h" />
+    <ClInclude Include="..\Classes\main\Gateway.h" />
+    <ClInclude Include="..\Classes\main\Main.h" />
+    <ClInclude Include="..\Classes\main\Setting.h" />
+    <ClInclude Include="..\Classes\MD5\CMD5Checksum.h" />
+    <ClInclude Include="..\Classes\MD5\MD5ChecksumDefines.h" />
+    <ClInclude Include="..\Classes\MobClickCpp.h" />
+    <ClInclude Include="..\Classes\plat.h" />
+    <ClInclude Include="..\Classes\popup\AdBlock.h" />
+    <ClInclude Include="..\Classes\popup\CoverSave.h" />
+    <ClInclude Include="..\Classes\popup\EmptySave.h" />
+    <ClInclude Include="..\Classes\popup\EndlessUnlock.h" />
+    <ClInclude Include="..\Classes\popup\Fail.h" />
+    <ClInclude Include="..\Classes\popup\GoldShop.h" />
+    <ClInclude Include="..\Classes\popup\HintInfo.h" />
+    <ClInclude Include="..\Classes\popup\Info.h" />
+    <ClInclude Include="..\Classes\popup\ItemInfo.h" />
+    <ClInclude Include="..\Classes\popup\ItemShop.h" />
+    <ClInclude Include="..\Classes\popup\LoadSave.h" />
+    <ClInclude Include="..\Classes\popup\Pause.h" />
+    <ClInclude Include="..\Classes\popup\PopBase.h" />
+    <ClInclude Include="..\Classes\popup\PopUp.h" />
+    <ClInclude Include="..\Classes\popup\Quit.h" />
+    <ClInclude Include="..\Classes\popup\QuitGame.h" />
+    <ClInclude Include="..\Classes\popup\Replay.h" />
+    <ClInclude Include="..\Classes\popup\Save.h" />
+    <ClInclude Include="..\Classes\popup\Skip.h" />
+    <ClInclude Include="..\Classes\popup\Success.h" />
+    <ClInclude Include="..\Classes\popup\TeachPause.h" />
+    <ClInclude Include="..\Classes\popup\TimeItem.h" />
+    <ClInclude Include="..\Classes\utils\utils\AdsmogoBanner.h" />
+    <ClInclude Include="..\Classes\utils\utils\AdsMogoInterstitial.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\adsMoGoFullScreen.html" />
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\adsMoGoInterstitial.html" />
+    <None Include="..\Classes\AdsMoGoRes\FullScreen\mogoVideo.html" />
+    <None Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowser.xib" />
+    <None Include="..\Classes\AdsMoGoSDK\AdMoGoWebBrowser_ipad.xib" />
+    <None Include="..\Classes\utils\utils\AdsmogoBanner.mm" />
+    <None Include="..\Classes\utils\utils\AdsMogoInterstitial.mm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_btnconfirm.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_btnconfirm2.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_closeButton%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_closeButton.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_full_backgrand.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_stoploading%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_stoploading.png" />
+    <Image Include="..\Classes\AdsMoGoRes\adchina\adchina_toolbar.png" />
+    <Image Include="..\Classes\AdsMoGoRes\animation\adsmogo_star%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\animation\adsmogo_star.png" />
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert\ads_alert_left_button.png" />
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\AdMoGoFullScreenAlert\ads_alert_right_button.png" />
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\adsmogo_fsclosebtn%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\adsmogo_fsclosebtn.png" />
+    <Image Include="..\Classes\AdsMoGoRes\FullScreen\fullscreenImg\loading.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_adclose%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerbg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerface305.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_bannerface95.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_btnbg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_close%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_corner%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_picrollbg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\High\adsmogo_rm_closeBtn.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_adclose.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_bannerbg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_bannerface50.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_btnbg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-1242x169.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-320x50.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-468x60.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-640x100.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-728x90.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\download-960x150.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-1242x169.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-320x50.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-468x60.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-640x100.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-728x90.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_clk\website-960x150.gif" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_close.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_corner.png" />
+    <Image Include="..\Classes\AdsMoGoRes\Normal\adsmogo_picrollbg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\bg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\hengtiao%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\mail%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\safari%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewfoot_bg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewhead_bg%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\shareviewhead_icon%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\sms%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back_grey%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_back_hover%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_close%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_close_hover%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next_grey%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_next_hover%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_pause%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_pause_hover%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_refresh%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_refresh_hover%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\High\webview_bar_share%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\bg_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_back_grey_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_back_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_close_hover_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_close_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_next_grey_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_next_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_pause_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_refresh_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\High\webview_bar_share_ipad%402x.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\bg_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_back_grey_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_back_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_close_hover_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_close_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_next_grey_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_next_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_pause_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_refresh_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\ipad\Normal\webview_bar_share_ipad.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\bg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\hengtiao.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\mail.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\safari.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewfoot_bg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewhead_bg.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\shareviewhead_icon.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\sms.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_back.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_back_grey.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_close.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_close_hover.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_next.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_next_grey.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_pause.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_refresh.png" />
+    <Image Include="..\Classes\AdsMoGoRes\WebBrowser\Normal\webview_bar_share.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

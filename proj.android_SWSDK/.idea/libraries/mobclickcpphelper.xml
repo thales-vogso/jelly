@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobclickcpphelper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/mobclickcpphelper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

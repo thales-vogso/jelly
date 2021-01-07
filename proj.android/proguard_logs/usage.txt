@@ -1,0 +1,819 @@
+com.android.essdk.eyou.EpaySdk:
+    public int init(android.content.Context,java.lang.String)
+com.android.essdk.eyou.ui.LoadingView:
+    public LoadingView(android.content.Context,android.util.AttributeSet)
+com.chukong.cocosplay.client.CocosPlayClient:
+    28:28:public CocosPlayClient()
+    43:43:public static boolean isNotifyFileLoadedEnabled()
+    public static native java.lang.String[] getSearchPaths()
+com.hzpz.pay.J
+com.hzpz.pay.PzPay:
+    public static final int CMQAME_WHAT_CALL
+    522:538:public void queryOrder(java.lang.String,com.hzpz.pay.PzPay$OnQueryOrderListListener)
+com.hzpz.pay.PzPay$1$1:
+    18:87:public static void cmgame(android.content.Context,com.hzpz.pay.R,boolean,android.os.Handler)
+    10:17:public static java.lang.String getContent_Code(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    23:29:public static java.lang.String getContent_Pay(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    22:40:public static java.lang.String onSms(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    19:31:public static java.lang.String getCpParam(java.lang.String)
+    51:146:public static void getCmVideo(com.hzpz.pay.R,boolean,com.hzpz.pay.aL)
+    36:208:public static void pay(android.content.Context,java.lang.String)
+    16:33:public static java.lang.String createMsg(java.util.Map)
+com.hzpz.pay.PzPay$OnQueryOrderListListener
+com.hzpz.pay.aD
+com.hzpz.pay.aD$a
+com.hzpz.pay.cmqame.CgMsg:
+    public void setF(java.lang.String)
+    public void setU(java.lang.String)
+    public void setM(java.lang.String)
+    public void setC(java.lang.String)
+    public void setS(java.lang.String)
+    public void setT(java.lang.String)
+    public void setW(java.lang.String)
+com.hzpz.pay.cmqame.CgMsgList:
+    private com.hzpz.pay.cmqame.CgMsg token
+    private java.lang.String cookie
+    public void setStatus(java.lang.String)
+    public void setError(java.lang.String)
+    public com.hzpz.pay.cmqame.CgMsg getToken()
+    public void setToken(com.hzpz.pay.cmqame.CgMsg)
+    public void setEndflag(java.lang.String)
+    public java.lang.String getCookie()
+    public void setCookie(java.lang.String)
+    public void setMsg(java.util.List)
+    public void setApi(java.lang.String)
+    public void setSdkv(java.lang.String)
+    public void setSid(java.lang.String)
+com.hzpz.pay.data.PayData:
+    18:18:public java.lang.String getId()
+    22:23:public void setId(java.lang.String)
+    26:26:public java.lang.String getPaychannel()
+    30:31:public void setPaychannel(java.lang.String)
+    34:34:public int getFeevalue()
+    38:39:public void setFeevalue(int)
+    42:42:public int getRebate()
+    46:47:public void setRebate(int)
+com.hzpz.pay.jsoup.Connection:
+    public abstract com.hzpz.pay.jsoup.Connection url(java.net.URL)
+    public abstract com.hzpz.pay.jsoup.Connection userAgent(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection maxBodySize(int)
+    public abstract com.hzpz.pay.jsoup.Connection referrer(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection followRedirects(boolean)
+    public abstract com.hzpz.pay.jsoup.Connection method(com.hzpz.pay.jsoup.Connection$Method)
+    public abstract com.hzpz.pay.jsoup.Connection ignoreHttpErrors(boolean)
+    public abstract com.hzpz.pay.jsoup.Connection data(java.lang.String,java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection data(java.lang.String,java.lang.String,java.io.InputStream)
+    public abstract com.hzpz.pay.jsoup.Connection data(java.util.Collection)
+    public varargs abstract com.hzpz.pay.jsoup.Connection data(java.lang.String[])
+    public abstract com.hzpz.pay.jsoup.Connection cookie(java.lang.String,java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection parser(com.hzpz.pay.jsoup.parser.Parser)
+    public abstract com.hzpz.pay.jsoup.Connection postDataCharset(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection$Request request()
+    public abstract com.hzpz.pay.jsoup.Connection request(com.hzpz.pay.jsoup.Connection$Request)
+    public abstract com.hzpz.pay.jsoup.Connection response(com.hzpz.pay.jsoup.Connection$Response)
+com.hzpz.pay.jsoup.Connection$Base:
+    public abstract java.lang.String header(java.lang.String)
+    public abstract boolean hasHeader(java.lang.String)
+    public abstract boolean hasHeaderWithValue(java.lang.String,java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection$Base removeHeader(java.lang.String)
+    public abstract java.lang.String cookie(java.lang.String)
+    public abstract boolean hasCookie(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection$Base removeCookie(java.lang.String)
+com.hzpz.pay.jsoup.Connection$KeyVal:
+    public abstract com.hzpz.pay.jsoup.Connection$KeyVal key(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection$KeyVal value(java.lang.String)
+    public abstract com.hzpz.pay.jsoup.Connection$KeyVal inputStream(java.io.InputStream)
+com.hzpz.pay.jsoup.Connection$Request:
+    public abstract com.hzpz.pay.jsoup.Connection$Request maxBodySize(int)
+    public abstract com.hzpz.pay.jsoup.Connection$Request followRedirects(boolean)
+    public abstract com.hzpz.pay.jsoup.Connection$Request ignoreHttpErrors(boolean)
+    public abstract com.hzpz.pay.jsoup.Connection$Request parser(com.hzpz.pay.jsoup.parser.Parser)
+    public abstract com.hzpz.pay.jsoup.Connection$Request postDataCharset(java.lang.String)
+com.hzpz.pay.jsoup.Connection$Response:
+    public abstract int statusCode()
+    public abstract java.lang.String statusMessage()
+    public abstract java.lang.String charset()
+    public abstract java.lang.String contentType()
+    public abstract java.lang.String body()
+com.hzpz.pay.jsoup.HttpStatusException:
+    19:19:public int getStatusCode()
+    23:23:public java.lang.String getUrl()
+com.hzpz.pay.jsoup.Jsoup:
+    20:20:private Jsoup()
+    31:31:public static com.hzpz.pay.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+    45:45:public static com.hzpz.pay.jsoup.nodes.Document parse(java.lang.String,java.lang.String,com.hzpz.pay.jsoup.parser.Parser)
+    58:58:public static com.hzpz.pay.jsoup.nodes.Document parse(java.lang.String)
+    88:88:public static com.hzpz.pay.jsoup.nodes.Document parse(java.io.File,java.lang.String,java.lang.String)
+    103:103:public static com.hzpz.pay.jsoup.nodes.Document parse(java.io.File,java.lang.String)
+    118:118:public static com.hzpz.pay.jsoup.nodes.Document parse(java.io.InputStream,java.lang.String,java.lang.String)
+    135:135:public static com.hzpz.pay.jsoup.nodes.Document parse(java.io.InputStream,java.lang.String,java.lang.String,com.hzpz.pay.jsoup.parser.Parser)
+    148:148:public static com.hzpz.pay.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    160:160:public static com.hzpz.pay.jsoup.nodes.Document parseBodyFragment(java.lang.String)
+    181:183:public static com.hzpz.pay.jsoup.nodes.Document parse(java.net.URL,int)
+    198:201:public static java.lang.String clean(java.lang.String,java.lang.String,com.hzpz.pay.jsoup.safety.Whitelist)
+    215:215:public static java.lang.String clean(java.lang.String,com.hzpz.pay.jsoup.safety.Whitelist)
+    231:235:public static java.lang.String clean(java.lang.String,java.lang.String,com.hzpz.pay.jsoup.safety.Whitelist,com.hzpz.pay.jsoup.nodes.Document$OutputSettings)
+    247:249:public static boolean isValid(java.lang.String,com.hzpz.pay.jsoup.safety.Whitelist)
+com.hzpz.pay.jsoup.UnsupportedMimeTypeException:
+    19:19:public java.lang.String getMimeType()
+    23:23:public java.lang.String getUrl()
+com.hzpz.pay.jsoup.examples.HtmlToPlainText
+com.hzpz.pay.jsoup.examples.HtmlToPlainText$1
+com.hzpz.pay.jsoup.examples.HtmlToPlainText$FormattingVisitor
+com.hzpz.pay.jsoup.examples.ListLinks
+com.hzpz.pay.jsoup.helper.DataUtil:
+    static final java.lang.String defaultCharset
+    private static final int bufferSize
+    private static final int UNICODE_BOM
+    static final int boundaryLength
+    29:29:private DataUtil()
+    40:41:public static com.hzpz.pay.jsoup.nodes.Document load(java.io.File,java.lang.String,java.lang.String)
+    53:54:public static com.hzpz.pay.jsoup.nodes.Document load(java.io.InputStream,java.lang.String,java.lang.String)
+    67:68:public static com.hzpz.pay.jsoup.nodes.Document load(java.io.InputStream,java.lang.String,java.lang.String,com.hzpz.pay.jsoup.parser.Parser)
+    170:170:static java.nio.ByteBuffer readToByteBuffer(java.io.InputStream)
+    174:182:static java.nio.ByteBuffer readFileToByteBuffer(java.io.File)
+com.hzpz.pay.jsoup.helper.DescendableLinkedList
+com.hzpz.pay.jsoup.helper.DescendableLinkedList$1
+com.hzpz.pay.jsoup.helper.DescendableLinkedList$DescendingIterator
+com.hzpz.pay.jsoup.helper.HttpConnection:
+    public static final java.lang.String CONTENT_ENCODING
+    private static final java.lang.String CONTENT_TYPE
+    private static final java.lang.String MULTIPART_FORM_DATA
+    private static final java.lang.String FORM_URL_ENCODED
+    43:45:public static com.hzpz.pay.jsoup.Connection connect(java.net.URL)
+    69:70:public com.hzpz.pay.jsoup.Connection url(java.net.URL)
+    84:86:public com.hzpz.pay.jsoup.Connection userAgent(java.lang.String)
+    95:96:public com.hzpz.pay.jsoup.Connection maxBodySize(int)
+    100:101:public com.hzpz.pay.jsoup.Connection followRedirects(boolean)
+    105:107:public com.hzpz.pay.jsoup.Connection referrer(java.lang.String)
+    111:112:public com.hzpz.pay.jsoup.Connection method(com.hzpz.pay.jsoup.Connection$Method)
+    116:117:public com.hzpz.pay.jsoup.Connection ignoreHttpErrors(boolean)
+    131:132:public com.hzpz.pay.jsoup.Connection data(java.lang.String,java.lang.String)
+    136:137:public com.hzpz.pay.jsoup.Connection data(java.lang.String,java.lang.String,java.io.InputStream)
+    149:158:public varargs com.hzpz.pay.jsoup.Connection data(java.lang.String[])
+    162:166:public com.hzpz.pay.jsoup.Connection data(java.util.Collection)
+    175:176:public com.hzpz.pay.jsoup.Connection cookie(java.lang.String,java.lang.String)
+    188:189:public com.hzpz.pay.jsoup.Connection parser(com.hzpz.pay.jsoup.parser.Parser)
+    210:210:public com.hzpz.pay.jsoup.Connection$Request request()
+    214:215:public com.hzpz.pay.jsoup.Connection request(com.hzpz.pay.jsoup.Connection$Request)
+    223:224:public com.hzpz.pay.jsoup.Connection response(com.hzpz.pay.jsoup.Connection$Response)
+    228:229:public com.hzpz.pay.jsoup.Connection postDataCharset(java.lang.String)
+com.hzpz.pay.jsoup.helper.HttpConnection$Base:
+    325:326:public java.lang.String cookie(java.lang.String)
+    342:344:public com.hzpz.pay.jsoup.Connection$Base removeCookie(java.lang.String)
+com.hzpz.pay.jsoup.helper.HttpConnection$KeyVal:
+    868:868:public static com.hzpz.pay.jsoup.helper.HttpConnection$KeyVal create(java.lang.String,java.lang.String,java.io.InputStream)
+    894:896:public com.hzpz.pay.jsoup.helper.HttpConnection$KeyVal inputStream(java.io.InputStream)
+    858:858:public bridge synthetic com.hzpz.pay.jsoup.Connection$KeyVal inputStream(java.io.InputStream)
+    858:858:public bridge synthetic com.hzpz.pay.jsoup.Connection$KeyVal value(java.lang.String)
+    858:858:public bridge synthetic com.hzpz.pay.jsoup.Connection$KeyVal key(java.lang.String)
+com.hzpz.pay.jsoup.helper.HttpConnection$Request:
+    388:390:public com.hzpz.pay.jsoup.Connection$Request maxBodySize(int)
+    398:399:public com.hzpz.pay.jsoup.Connection$Request followRedirects(boolean)
+    415:416:public com.hzpz.pay.jsoup.Connection$Request ignoreHttpErrors(boolean)
+    439:440:public com.hzpz.pay.jsoup.helper.HttpConnection$Request parser(com.hzpz.pay.jsoup.parser.Parser)
+    448:451:public com.hzpz.pay.jsoup.Connection$Request postDataCharset(java.lang.String)
+    352:352:public bridge synthetic java.lang.String cookie(java.lang.String)
+    352:352:public bridge synthetic com.hzpz.pay.jsoup.Connection$Request parser(com.hzpz.pay.jsoup.parser.Parser)
+com.hzpz.pay.jsoup.helper.HttpConnection$Response:
+    private static final int MAX_REDIRECTS
+    private static final java.lang.String LOCATION
+    579:579:public int statusCode()
+    583:583:public java.lang.String statusMessage()
+    587:587:public java.lang.String charset()
+    603:611:public java.lang.String body()
+    459:459:public bridge synthetic java.lang.String cookie(java.lang.String)
+com.hzpz.pay.jsoup.helper.StringUtil:
+    9:9:public StringUtil()
+    113:115:public static java.lang.String normaliseWhitespace(java.lang.String)
+com.hzpz.pay.jsoup.helper.Validate:
+    8:8:private Validate()
+com.hzpz.pay.jsoup.helper.W3CDom
+com.hzpz.pay.jsoup.helper.W3CDom$W3CBuilder
+com.hzpz.pay.jsoup.nodes.Attribute:
+    49:51:public void setKey(java.lang.String)
+    107:108:public static com.hzpz.pay.jsoup.nodes.Attribute createFromEncoded(java.lang.String,java.lang.String)
+    112:112:protected boolean isDataAttribute()
+com.hzpz.pay.jsoup.nodes.Attributes:
+    protected static final java.lang.String dataPrefix
+    68:72:public void remove(java.lang.String)
+    131:131:public java.util.Map dataset()
+    261:261:private static java.lang.String dataKey(java.lang.String)
+    19:19:static synthetic java.util.LinkedHashMap access$100(com.hzpz.pay.jsoup.nodes.Attributes)
+    19:19:static synthetic java.util.LinkedHashMap access$102(com.hzpz.pay.jsoup.nodes.Attributes,java.util.LinkedHashMap)
+    19:19:static synthetic java.lang.String access$300(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Attributes$1
+com.hzpz.pay.jsoup.nodes.Attributes$Dataset
+com.hzpz.pay.jsoup.nodes.Attributes$Dataset$DatasetIterator
+com.hzpz.pay.jsoup.nodes.Attributes$Dataset$EntrySet
+com.hzpz.pay.jsoup.nodes.Comment:
+    private static final java.lang.String COMMENT_KEY
+com.hzpz.pay.jsoup.nodes.DataNode:
+    private static final java.lang.String DATA_KEY
+    38:39:public com.hzpz.pay.jsoup.nodes.DataNode setWholeData(java.lang.String)
+    60:61:public static com.hzpz.pay.jsoup.nodes.DataNode createFromEncoded(java.lang.String,java.lang.String)
+com.hzpz.pay.jsoup.nodes.Document:
+    40:47:public static com.hzpz.pay.jsoup.nodes.Document createShell(java.lang.String)
+    56:56:public java.lang.String location()
+    64:64:public com.hzpz.pay.jsoup.nodes.Element head()
+    81:82:public java.lang.String title()
+    91:98:public void title(java.lang.String)
+    106:106:public com.hzpz.pay.jsoup.nodes.Element createElement(java.lang.String)
+    115:134:public com.hzpz.pay.jsoup.nodes.Document normalise()
+    139:154:private void normaliseTextNodes(com.hzpz.pay.jsoup.nodes.Element)
+    158:176:private void normaliseStructure(java.lang.String,com.hzpz.pay.jsoup.nodes.Element)
+    204:205:public com.hzpz.pay.jsoup.nodes.Element text(java.lang.String)
+    238:241:public void charset(java.nio.charset.Charset)
+    252:252:public java.nio.charset.Charset charset()
+    269:270:public void updateMetaCharsetElement(boolean)
+    281:281:public boolean updateMetaCharsetElement()
+    311:361:private void ensureMetaCharsetElement()
+    548:550:public com.hzpz.pay.jsoup.nodes.Document outputSettings(com.hzpz.pay.jsoup.nodes.Document$OutputSettings)
+com.hzpz.pay.jsoup.nodes.Document$OutputSettings:
+    402:403:public com.hzpz.pay.jsoup.nodes.Document$OutputSettings escapeMode(com.hzpz.pay.jsoup.nodes.Entities$EscapeMode)
+    458:459:public com.hzpz.pay.jsoup.nodes.Document$OutputSettings syntax(com.hzpz.pay.jsoup.nodes.Document$OutputSettings$Syntax)
+    477:478:public com.hzpz.pay.jsoup.nodes.Document$OutputSettings prettyPrint(boolean)
+    496:497:public com.hzpz.pay.jsoup.nodes.Document$OutputSettings outline(boolean)
+    514:516:public com.hzpz.pay.jsoup.nodes.Document$OutputSettings indentAmount(int)
+com.hzpz.pay.jsoup.nodes.DocumentType:
+    private static final java.lang.String NAME
+    private static final java.lang.String PUBLIC_ID
+    private static final java.lang.String SYSTEM_ID
+com.hzpz.pay.jsoup.nodes.Element:
+    76:78:public com.hzpz.pay.jsoup.nodes.Element tagName(java.lang.String)
+    134:134:public java.util.Map dataset()
+    147:149:public com.hzpz.pay.jsoup.select.Elements parents()
+    153:158:private static void accumulateParents(com.hzpz.pay.jsoup.nodes.Element,com.hzpz.pay.jsoup.select.Elements)
+    211:216:public java.util.List textNodes()
+    229:234:public java.util.List dataNodes()
+    284:287:public com.hzpz.pay.jsoup.nodes.Element prependChild(com.hzpz.pay.jsoup.nodes.Node)
+    301:309:public com.hzpz.pay.jsoup.nodes.Element insertChildren(int,java.util.Collection)
+    320:322:public com.hzpz.pay.jsoup.nodes.Element appendElement(java.lang.String)
+    333:335:public com.hzpz.pay.jsoup.nodes.Element prependElement(java.lang.String)
+    345:347:public com.hzpz.pay.jsoup.nodes.Element appendText(java.lang.String)
+    357:359:public com.hzpz.pay.jsoup.nodes.Element prependText(java.lang.String)
+    369:373:public com.hzpz.pay.jsoup.nodes.Element append(java.lang.String)
+    383:387:public com.hzpz.pay.jsoup.nodes.Element prepend(java.lang.String)
+    399:399:public com.hzpz.pay.jsoup.nodes.Element before(java.lang.String)
+    422:422:public com.hzpz.pay.jsoup.nodes.Element after(java.lang.String)
+    433:433:public com.hzpz.pay.jsoup.nodes.Element after(com.hzpz.pay.jsoup.nodes.Node)
+    441:442:public com.hzpz.pay.jsoup.nodes.Element empty()
+    453:453:public com.hzpz.pay.jsoup.nodes.Element wrap(java.lang.String)
+    467:483:public java.lang.String cssSelector()
+    513:520:public com.hzpz.pay.jsoup.nodes.Element nextElementSibling()
+    545:546:public com.hzpz.pay.jsoup.nodes.Element firstElementSibling()
+    564:565:public com.hzpz.pay.jsoup.nodes.Element lastElementSibling()
+    604:610:public com.hzpz.pay.jsoup.nodes.Element getElementById(java.lang.String)
+    625:627:public com.hzpz.pay.jsoup.select.Elements getElementsByClass(java.lang.String)
+    637:640:public com.hzpz.pay.jsoup.select.Elements getElementsByAttribute(java.lang.String)
+    650:653:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeStarting(java.lang.String)
+    664:664:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValue(java.lang.String,java.lang.String)
+    675:675:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String,java.lang.String)
+    686:686:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String,java.lang.String)
+    697:697:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String,java.lang.String)
+    708:708:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String,java.lang.String)
+    718:718:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String,java.util.regex.Pattern)
+    731:735:public com.hzpz.pay.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String,java.lang.String)
+    744:744:public com.hzpz.pay.jsoup.select.Elements getElementsByIndexLessThan(int)
+    753:753:public com.hzpz.pay.jsoup.select.Elements getElementsByIndexGreaterThan(int)
+    762:762:public com.hzpz.pay.jsoup.select.Elements getElementsByIndexEquals(int)
+    773:773:public com.hzpz.pay.jsoup.select.Elements getElementsContainingText(java.lang.String)
+    784:784:public com.hzpz.pay.jsoup.select.Elements getElementsContainingOwnText(java.lang.String)
+    794:794:public com.hzpz.pay.jsoup.select.Elements getElementsMatchingText(java.util.regex.Pattern)
+    806:810:public com.hzpz.pay.jsoup.select.Elements getElementsMatchingText(java.lang.String)
+    820:820:public com.hzpz.pay.jsoup.select.Elements getElementsMatchingOwnText(java.util.regex.Pattern)
+    832:836:public com.hzpz.pay.jsoup.select.Elements getElementsMatchingOwnText(java.lang.String)
+    937:943:public com.hzpz.pay.jsoup.nodes.Element text(java.lang.String)
+    951:962:public boolean hasText()
+    972:984:public java.lang.String data()
+    993:993:public java.lang.String className()
+    1003:1007:public java.util.Set classNames()
+    1016:1018:public com.hzpz.pay.jsoup.nodes.Element classNames(java.util.Set)
+    1054:1060:public com.hzpz.pay.jsoup.nodes.Element addClass(java.lang.String)
+    1069:1075:public com.hzpz.pay.jsoup.nodes.Element removeClass(java.lang.String)
+    1084:1093:public com.hzpz.pay.jsoup.nodes.Element toggleClass(java.lang.String)
+    1101:1104:public java.lang.String val()
+    1113:1117:public com.hzpz.pay.jsoup.nodes.Element val(java.lang.String)
+    1174:1176:public com.hzpz.pay.jsoup.nodes.Element html(java.lang.String)
+    21:21:public bridge synthetic com.hzpz.pay.jsoup.nodes.Node wrap(java.lang.String)
+    21:21:public bridge synthetic com.hzpz.pay.jsoup.nodes.Node after(com.hzpz.pay.jsoup.nodes.Node)
+    21:21:public bridge synthetic com.hzpz.pay.jsoup.nodes.Node after(java.lang.String)
+    21:21:public bridge synthetic com.hzpz.pay.jsoup.nodes.Node before(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Entities:
+    73:75:static java.lang.String escape(java.lang.String,com.hzpz.pay.jsoup.nodes.Document$OutputSettings)
+    157:157:static java.lang.String unescape(java.lang.String)
+    167:167:static java.lang.String unescape(java.lang.String,boolean)
+com.hzpz.pay.jsoup.nodes.FormElement:
+    36:36:public com.hzpz.pay.jsoup.select.Elements elements()
+    57:66:public com.hzpz.pay.jsoup.Connection submit()
+    75:107:public java.util.List formData()
+com.hzpz.pay.jsoup.nodes.Node:
+    125:127:public com.hzpz.pay.jsoup.nodes.Node removeAttr(java.lang.String)
+    135:135:public java.lang.String baseUri()
+    229:233:public java.util.List childNodesCopy()
+    245:245:protected com.hzpz.pay.jsoup.nodes.Node[] childNodesAsArray()
+    292:293:public com.hzpz.pay.jsoup.nodes.Node before(java.lang.String)
+    317:318:public com.hzpz.pay.jsoup.nodes.Node after(java.lang.String)
+    328:332:public com.hzpz.pay.jsoup.nodes.Node after(com.hzpz.pay.jsoup.nodes.Node)
+    336:342:private void addSiblingHtml(int,java.lang.String)
+    350:371:public com.hzpz.pay.jsoup.nodes.Node wrap(java.lang.String)
+    390:396:public com.hzpz.pay.jsoup.nodes.Node unwrap()
+    400:404:private com.hzpz.pay.jsoup.nodes.Element getDeepChild(com.hzpz.pay.jsoup.nodes.Element)
+    412:415:public void replaceWith(com.hzpz.pay.jsoup.nodes.Node)
+    424:434:protected void replaceChild(com.hzpz.pay.jsoup.nodes.Node,com.hzpz.pay.jsoup.nodes.Node)
+    446:451:protected varargs void addChildren(com.hzpz.pay.jsoup.nodes.Node[])
+    513:519:public com.hzpz.pay.jsoup.nodes.Node previousSibling()
+com.hzpz.pay.jsoup.nodes.TextNode:
+    private static final java.lang.String TEXT_KEY
+    41:41:public java.lang.String text()
+    50:53:public com.hzpz.pay.jsoup.nodes.TextNode text(java.lang.String)
+    79:89:public com.hzpz.pay.jsoup.nodes.TextNode splitText(int)
+    115:116:public static com.hzpz.pay.jsoup.nodes.TextNode createFromEncoded(java.lang.String,java.lang.String)
+    120:121:static java.lang.String normaliseWhitespace(java.lang.String)
+    125:125:static java.lang.String stripLeadingWhitespace(java.lang.String)
+    166:167:public com.hzpz.pay.jsoup.nodes.Node removeAttr(java.lang.String)
+com.hzpz.pay.jsoup.nodes.XmlDeclaration:
+    static final java.lang.String DECL_KEY
+    18:21:public XmlDeclaration(java.lang.String,java.lang.String,boolean)
+com.hzpz.pay.jsoup.parser.CharacterReader:
+    static final char EOF
+    private static final int maxCacheLen
+    62:62:final java.lang.String consumeAsString()
+com.hzpz.pay.jsoup.parser.HtmlTreeBuilder:
+    58:104:java.util.List parseFragment(java.lang.String,com.hzpz.pay.jsoup.nodes.Element,java.lang.String,com.hzpz.pay.jsoup.parser.ParseErrorList)
+    526:527:void setPendingTableCharacters(java.util.List)
+com.hzpz.pay.jsoup.parser.HtmlTreeBuilderState$Constants:
+    1481:1481:private HtmlTreeBuilderState$Constants()
+com.hzpz.pay.jsoup.parser.ParseError:
+    25:25:public java.lang.String getErrorMessage()
+    33:33:public int getPosition()
+com.hzpz.pay.jsoup.parser.ParseErrorList:
+    private static final int INITIAL_CAPACITY
+    24:24:int getMaxSize()
+com.hzpz.pay.jsoup.parser.Parser:
+    private static final int DEFAULT_MAX_ERRORS
+    40:40:public com.hzpz.pay.jsoup.parser.TreeBuilder getTreeBuilder()
+    49:50:public com.hzpz.pay.jsoup.parser.Parser setTreeBuilder(com.hzpz.pay.jsoup.parser.TreeBuilder)
+    67:68:public com.hzpz.pay.jsoup.parser.Parser setTrackErrors(int)
+    76:76:public java.util.List getErrors()
+    89:90:public static com.hzpz.pay.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+    104:105:public static java.util.List parseFragment(java.lang.String,com.hzpz.pay.jsoup.nodes.Element,java.lang.String)
+    116:117:public static java.util.List parseXmlFragment(java.lang.String,java.lang.String)
+    129:139:public static com.hzpz.pay.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    149:150:public static java.lang.String unescapeEntities(java.lang.String,boolean)
+    161:161:public static com.hzpz.pay.jsoup.nodes.Document parseBodyFragmentRelaxed(java.lang.String,java.lang.String)
+    181:181:public static com.hzpz.pay.jsoup.parser.Parser xmlParser()
+com.hzpz.pay.jsoup.parser.Tag:
+    92:92:public boolean canContainBlock()
+    101:101:public boolean isInline()
+    110:110:public boolean isData()
+    147:147:public static boolean isKnownTag(java.lang.String)
+    172:172:public boolean isFormSubmittable()
+com.hzpz.pay.jsoup.parser.TokenQueue:
+    private static final char ESC
+    43:43:public char peek()
+    51:52:public void addFirst(java.lang.Character)
+    60:62:public void addFirst(java.lang.String)
+    79:79:public boolean matchesCS(java.lang.String)
+    109:109:public boolean matchesStartTag()
+    147:148:public void advance()
+    192:213:public java.lang.String consumeToIgnoreCase(java.lang.String)
+    248:250:public java.lang.String chompToIgnoreCase(java.lang.String)
+    326:329:public java.lang.String consumeWord()
+    338:342:public java.lang.String consumeTagName()
+    376:380:public java.lang.String consumeAttributeKey()
+com.hzpz.pay.jsoup.parser.Tokeniser:
+    static final char replacementChar
+    109:109:final com.hzpz.pay.jsoup.parser.TokeniserState getState()
+    252:252:final boolean currentNodeInHtmlNS()
+    263:275:final java.lang.String unescapeEntities(boolean)
+com.hzpz.pay.jsoup.parser.TokeniserState:
+    static final char nullChar
+    private static final char replacementChar
+    private static final char eof
+com.hzpz.pay.jsoup.parser.TreeBuilder:
+    38:38:com.hzpz.pay.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+com.hzpz.pay.jsoup.parser.XmlTreeBuilder
+com.hzpz.pay.jsoup.parser.XmlTreeBuilder$1
+com.hzpz.pay.jsoup.safety.Cleaner
+com.hzpz.pay.jsoup.safety.Cleaner$1
+com.hzpz.pay.jsoup.safety.Cleaner$CleaningVisitor
+com.hzpz.pay.jsoup.safety.Cleaner$ElementMeta
+com.hzpz.pay.jsoup.safety.Whitelist
+com.hzpz.pay.jsoup.safety.Whitelist$AttributeKey
+com.hzpz.pay.jsoup.safety.Whitelist$AttributeValue
+com.hzpz.pay.jsoup.safety.Whitelist$Protocol
+com.hzpz.pay.jsoup.safety.Whitelist$TagName
+com.hzpz.pay.jsoup.safety.Whitelist$TypedValue
+com.hzpz.pay.jsoup.select.Collector:
+    13:14:private Collector()
+com.hzpz.pay.jsoup.select.CombiningEvaluator$Or:
+    72:78:CombiningEvaluator$Or(java.util.Collection)
+com.hzpz.pay.jsoup.select.Elements:
+    34:35:public varargs Elements(com.hzpz.pay.jsoup.nodes.Element[])
+    60:64:public java.lang.String attr(java.lang.String)
+    73:77:public boolean hasAttr(java.lang.String)
+    87:90:public com.hzpz.pay.jsoup.select.Elements attr(java.lang.String,java.lang.String)
+    99:102:public com.hzpz.pay.jsoup.select.Elements removeAttr(java.lang.String)
+    111:114:public com.hzpz.pay.jsoup.select.Elements addClass(java.lang.String)
+    123:126:public com.hzpz.pay.jsoup.select.Elements removeClass(java.lang.String)
+    135:138:public com.hzpz.pay.jsoup.select.Elements toggleClass(java.lang.String)
+    147:151:public boolean hasClass(java.lang.String)
+    160:163:public java.lang.String val()
+    172:174:public com.hzpz.pay.jsoup.select.Elements val(java.lang.String)
+    186:192:public java.lang.String text()
+    196:200:public boolean hasText()
+    210:216:public java.lang.String html()
+    254:257:public com.hzpz.pay.jsoup.select.Elements tagName(java.lang.String)
+    267:270:public com.hzpz.pay.jsoup.select.Elements html(java.lang.String)
+    280:283:public com.hzpz.pay.jsoup.select.Elements prepend(java.lang.String)
+    293:296:public com.hzpz.pay.jsoup.select.Elements append(java.lang.String)
+    306:309:public com.hzpz.pay.jsoup.select.Elements before(java.lang.String)
+    319:322:public com.hzpz.pay.jsoup.select.Elements after(java.lang.String)
+    335:339:public com.hzpz.pay.jsoup.select.Elements wrap(java.lang.String)
+    357:360:public com.hzpz.pay.jsoup.select.Elements unwrap()
+    375:378:public com.hzpz.pay.jsoup.select.Elements empty()
+    394:397:public com.hzpz.pay.jsoup.select.Elements remove()
+    422:423:public com.hzpz.pay.jsoup.select.Elements not(java.lang.String)
+    434:434:public com.hzpz.pay.jsoup.select.Elements eq(int)
+    443:444:public boolean is(java.lang.String)
+    452:456:public com.hzpz.pay.jsoup.select.Elements parents()
+    473:473:public com.hzpz.pay.jsoup.nodes.Element last()
+    482:487:public com.hzpz.pay.jsoup.select.Elements traverse(com.hzpz.pay.jsoup.select.NodeVisitor)
+    496:500:public java.util.List forms()
+com.hzpz.pay.jsoup.select.Evaluator$CssNthEvaluator:
+    411:412:public Evaluator$CssNthEvaluator(int)
+com.hzpz.pay.jsoup.select.Selector:
+    144:156:static com.hzpz.pay.jsoup.select.Elements filterOut(java.util.Collection,java.util.Collection)
+com.hzpz.pay.service.SmsPushReceiver:
+    private static final java.lang.String TAG
+com.unicom.wounipaysms.bean.TradeBean
+com.unicom.wounipaysms.bean.UpLinkSMSMBean:
+    private java.lang.String ystr
+    127:127:public java.lang.String getCpcustom()
+    190:190:public java.lang.String getYstr()
+    194:195:public void setYstr(java.lang.String)
+    222:222:public java.lang.String getKey()
+com.unicom.wounipaysms.crypt.Base64
+com.unicom.wounipaysms.crypt.CryptUtil:
+    private static final java.lang.String desAlgorithm
+    private static final java.lang.String desKeyAlgorithm
+    32:34:public CryptUtil()
+    38:49:private static javax.crypto.SecretKey KeyGenerator(java.lang.String)
+    54:54:public static java.lang.String encryptBy3DesAndBase64(java.lang.String,java.lang.String)
+    59:59:public static java.lang.String decryptBy3DesAndBase64(java.lang.String,java.lang.String)
+    65:91:public static java.lang.String encryptBy3DesAndBase64(java.lang.String,java.lang.String,java.lang.String)
+    97:110:public static java.lang.String decryptBy3DesAndBase64(java.lang.String,java.lang.String,java.lang.String)
+    115:115:public static byte[] encryptBy3Des(byte[],java.lang.String)
+    120:120:public static byte[] decryptBy3Des(byte[],java.lang.String)
+    126:159:public static byte[] cryptBy3Des(java.lang.String,int,byte[],byte[])
+    164:181:public static java.lang.String md5Hex(java.lang.String)
+    186:195:public static char[] encodeHex(byte[])
+    239:240:private static javax.crypto.spec.IvParameterSpec IvGenerator(byte[])
+com.unicom.wounipaysms.crypt.EscapeUnescape
+com.unicom.wounipaysms.dialog.NoticeDialog:
+    69:75:public NoticeDialog(android.content.Context,com.unicom.wounipaysms.bean.NoticeDialogBean)
+com.unicom.wounipaysms.duandai.LixianSMS
+com.unicom.wounipaysms.duandai.LixianSMS$1
+com.unicom.wounipaysms.duandai.SendSMS:
+    private static final java.lang.String TAG
+    private static final java.lang.String DELIVERED_SMS_ACTION_ORDER
+    private static final java.lang.String DELIVERED_SMS_ACTION_VERIFY
+    private static final java.lang.String SENT_SMS_ACTION_ORDER
+    private static final java.lang.String SENT_SMS_ACTION_VERIFY
+    private static final long LONG_TIMER_DURATION_SECOND
+    public static final int INT_SEND_MESSAGE_TIME_OUT
+    public static final int INT_SEND_MESSAGE_FAILED_INNERCODE
+    public static final java.lang.String SECOND_CONFRIM_SMS_ADDRESS
+    65:69:public SendSMS(android.content.Context,com.unicom.wounipaysms.delegate.RequestDelegate)
+com.unicom.wounipaysms.duandai.WoUniPay:
+    public static final int REQUEST_MONEY_FAILED
+    public static final int CANCEL_PAY
+    public static final int NON_UNICOM_CARD
+    public static final int SEND_SMS_FAILED
+    public static final int ERROR_PARTNER_INFO
+    public static final int GET_ORDERID_FAILED
+    public static final int REQUEST_PARAM_ERROR
+    public static final int CPID_LENGTH_ERROR
+    public static final int UNKNOWN_ERROR
+    public static final int PARSE_ERROR
+    private boolean hasSendOrderSMS
+    private com.unicom.wounipaysms.duandai.LixianSMS lixianSMS
+    118:120:public void setServicesAddress(java.lang.String,int)
+    124:125:public void setRestAddress(java.lang.String)
+    151:151:public android.app.ProgressDialog getProgressDialog()
+    156:156:public com.unicom.wounipaysms.dialog.NoticeDialog getNoticeDialog()
+    182:199:public void showNoticeDialog(boolean,int,java.lang.String)
+    281:285:public void payAsDuanDai(android.os.Bundle,com.unicom.wounipaysms.delegate.RequestDelegate)
+    288:296:public void sendConfirmSMS()
+com.unicom.wounipaysms.tools.DateUtil:
+    6:6:public DateUtil()
+    15:18:public static java.lang.String Date2StringyyyyMMddHHmmss(java.util.Date)
+com.unicom.wounipaysms.tools.MultimodeConfig
+com.unicom.wounipaysms.tools.PhoneInfoTools:
+    private static final java.lang.String TAG
+    private static final float round
+    47:47:public PhoneInfoTools()
+    57:75:public static java.lang.String GetHostIP()
+    79:82:public static java.lang.String getDeviceMac(android.content.Context)
+    87:147:public static java.lang.String getCurrentAPN(android.content.Context)
+    152:178:public static java.lang.String Md5(java.lang.String)
+    192:212:public static java.lang.String getImsiStr(android.content.Context)
+    217:218:public static boolean isUnicomCard(int)
+    223:246:public static java.lang.String getSubscriberId2(int)
+    256:262:public static final int getVersionCode(android.content.Context)
+    273:279:public static final java.lang.String getVersionName(android.content.Context)
+    292:304:public static final java.lang.String getPhoneNum(android.content.Context)
+    317:322:public static final java.lang.String getIMSI(android.content.Context)
+    334:339:public static final java.lang.String getIMEI(android.content.Context)
+    351:356:public static final java.lang.String getMSISDN(android.content.Context)
+    369:371:public static final java.lang.String getUA(android.content.Context)
+    377:384:public static final java.lang.String getFidVac(android.content.Context)
+    391:397:public static final java.lang.String getCpid(android.content.Context)
+    403:409:public static final java.lang.String getAppid(android.content.Context)
+    425:428:public static final boolean isSimVaild(android.content.Context)
+    432:441:public static boolean isNetWorkViable(android.content.Context)
+    452:468:public static java.lang.String getAPN(android.content.Context)
+    473:473:public static final java.lang.String getSdkVersion()
+    477:481:public static final boolean isExistSdCard()
+    486:495:public static final boolean isNetAvailable(android.content.Context)
+    501:509:public static final java.lang.Object getMetaInfo(android.content.Context,java.lang.String)
+    514:524:public static boolean isDualMode()
+    528:551:public static java.lang.String getSubscriberId(int)
+    555:559:public static int getSecondSimState()
+    564:585:private static int getSimState(java.lang.String)
+    605:611:public static void toCorner(android.view.View,float)
+    615:620:public static android.graphics.drawable.GradientDrawable GetCorner(float,int)
+    626:632:public static android.graphics.drawable.GradientDrawable GetCornerWithLine(int,int,float,int)
+    637:647:public static void toCornerTop(android.view.View,float)
+    652:659:public static android.graphics.drawable.GradientDrawable GetChangeBackground(int,int,float)
+    664:669:public static void FullScreenCornerTop(android.view.View)
+    672:674:public static android.graphics.drawable.GradientDrawable getWindowsBackGround(int)
+    679:687:public static final java.lang.String getPayPhoneValue(android.content.Context,java.lang.String)
+    692:699:public static void savePayPhoneValue(android.content.Context,java.lang.String,java.lang.String)
+    715:725:public static java.lang.String getStringInSP(android.content.SharedPreferences,java.lang.String,java.lang.String)
+    741:753:public static android.graphics.drawable.Drawable getDrawbleFromAssets(android.content.Context,java.lang.String,java.lang.String)
+    764:770:public static android.graphics.drawable.Drawable getDrawbleFromRes(android.content.Context,java.lang.String)
+    787:803:public static android.graphics.drawable.NinePatchDrawable getNinePatchDrawbleFromAssets(android.content.Context,java.lang.String)
+    827:844:public static int getStatusBarHeight(android.content.Context)
+com.unicom.wounipaysms.tools.StringUtil
+jellyPZ.BuildConfig
+jellyPZ.R
+jellyPZ.R$attr
+jellyPZ.R$drawable
+jellyPZ.R$string
+org.cocos2dx.cpp.AppActivity:
+    private static org.cocos2dx.cpp.AppActivity thisActivity
+    130:130:public static java.lang.Object myInstance()
+    144:161:public void buyPZPayProduct(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)
+org.cocos2dx.lib.Cocos2dxAccelerometer:
+    78:84:public void setInterval(float)
+org.cocos2dx.lib.Cocos2dxActivity:
+    193:200:public void setKeepScreenOn(boolean)
+    275:279:public void showDialog(java.lang.String,java.lang.String)
+    283:287:public void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+    49:49:static synthetic org.cocos2dx.lib.Cocos2dxGLSurfaceView access$000(org.cocos2dx.lib.Cocos2dxActivity)
+org.cocos2dx.lib.Cocos2dxActivity$1
+org.cocos2dx.lib.Cocos2dxActivity$Cocos2dxEGLConfigChooser:
+    71:73:public Cocos2dxActivity$Cocos2dxEGLConfigChooser(org.cocos2dx.lib.Cocos2dxActivity,int,int,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxBitmap:
+    private static final int HORIZONTALALIGN_LEFT
+    private static final int HORIZONTALALIGN_RIGHT
+    private static final int HORIZONTALALIGN_CENTER
+    private static final int VERTICALALIGN_TOP
+    private static final int VERTICALALIGN_BOTTOM
+    private static final int VERTICALALIGN_CENTER
+    44:509:public Cocos2dxBitmap()
+    private static native void nativeInitBitmapDC(int,int,byte[])
+    96:101:public static void createTextBitmap(java.lang.String,java.lang.String,int,int,int,int)
+    110:195:public static boolean createTextBitmapShadowStroke(java.lang.String,java.lang.String,int,int,int,int,int,int,int,int,boolean,float,float,float,float,boolean,int,int,int,int,float)
+    200:235:private static android.graphics.Paint newPaint(java.lang.String,int,int)
+    240:261:private static org.cocos2dx.lib.Cocos2dxBitmap$TextProperty computeTextProperty(java.lang.String,int,int,android.graphics.Paint)
+    266:280:private static int computeX(java.lang.String,int,int)
+    286:305:private static int computeY(android.graphics.Paint$FontMetricsInt,int,int,int)
+    314:363:private static java.lang.String[] splitString(java.lang.String,int,int,android.graphics.Paint)
+    368:410:private static java.util.LinkedList divideStringWithMaxWidth(java.lang.String,int,android.graphics.Paint)
+    415:441:private static java.lang.String refactorString(java.lang.String)
+    445:452:private static void initNativeObject(android.graphics.Bitmap)
+    455:464:private static byte[] getPixels(android.graphics.Bitmap)
+    468:488:private static int getFontSizeAccordingHeight(int)
+    493:501:private static java.lang.String getStringWithEllipsis(java.lang.String,float,float)
+org.cocos2dx.lib.Cocos2dxBitmap$TextProperty
+org.cocos2dx.lib.Cocos2dxEditText:
+    52:53:public Cocos2dxEditText(android.content.Context,android.util.AttributeSet)
+    56:57:public Cocos2dxEditText(android.content.Context,android.util.AttributeSet,int)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView:
+    private static final int HANDLER_OPEN_IME_KEYBOARD
+    private static final int HANDLER_CLOSE_IME_KEYBOARD
+    70:73:public Cocos2dxGLSurfaceView(android.content.Context,android.util.AttributeSet)
+    325:329:public static void openIMEKeyboard()
+    332:335:public static void closeIMEKeyboard()
+    356:377:private static void dumpMotionEvent(android.view.MotionEvent)
+org.cocos2dx.lib.Cocos2dxHandler:
+    public static final int HANDLER_SHOW_DIALOG
+    public static final int HANDLER_SHOW_EDITBOX_DIALOG
+org.cocos2dx.lib.Cocos2dxHandler$DialogMessage:
+    112:115:public Cocos2dxHandler$DialogMessage(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHandler$EditBoxMessage:
+    126:133:public Cocos2dxHandler$EditBoxMessage(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHelper:
+    private static final java.lang.String PREFS_NAME
+    private static final int RUNNABLES_PER_FRAME
+    48:421:public Cocos2dxHelper()
+    77:78:public static void runOnGLThread(java.lang.Runnable)
+    112:112:public static android.app.Activity getActivity()
+    116:117:public static void addOnActivityResultListener(android.preference.PreferenceManager$OnActivityResultListener)
+    124:124:public static boolean isActivityVisible()
+    146:146:public static java.lang.String getCocos2dxPackageName()
+    150:150:public static java.lang.String getCocos2dxWritablePath()
+    154:154:public static java.lang.String getCurrentLanguage()
+    162:162:public static android.content.res.AssetManager getAssetManager()
+    166:168:public static void enableAccelerometer()
+    172:173:public static void setAccelerometerInterval(float)
+    176:178:public static void disableAccelerometer()
+    181:182:public static void setKeepScreenOn(boolean)
+    185:193:public static boolean openURL(java.lang.String)
+    197:198:public static void preloadBackgroundMusic(java.lang.String)
+    201:202:public static void playBackgroundMusic(java.lang.String,boolean)
+    205:206:public static void resumeBackgroundMusic()
+    209:210:public static void pauseBackgroundMusic()
+    213:214:public static void stopBackgroundMusic()
+    217:218:public static void rewindBackgroundMusic()
+    221:221:public static boolean isBackgroundMusicPlaying()
+    225:225:public static float getBackgroundMusicVolume()
+    229:230:public static void setBackgroundMusicVolume(float)
+    233:234:public static void preloadEffect(java.lang.String)
+    237:237:public static int playEffect(java.lang.String,boolean,float,float,float)
+    241:242:public static void resumeEffect(int)
+    245:246:public static void pauseEffect(int)
+    249:250:public static void stopEffect(int)
+    253:253:public static float getEffectsVolume()
+    257:258:public static void setEffectsVolume(float)
+    261:262:public static void unloadEffect(java.lang.String)
+    265:266:public static void pauseAllEffects()
+    269:270:public static void resumeAllEffects()
+    273:274:public static void stopAllEffects()
+    277:279:public static void end()
+    306:307:public static void terminateProcess()
+    310:311:private static void showDialog(java.lang.String,java.lang.String)
+    314:315:private static void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+    334:348:public static int getDPI()
+    356:357:public static boolean getBoolForKey(java.lang.String,boolean)
+    361:362:public static int getIntegerForKey(java.lang.String,int)
+    366:367:public static float getFloatForKey(java.lang.String,float)
+    372:373:public static double getDoubleForKey(java.lang.String,double)
+    377:378:public static java.lang.String getStringForKey(java.lang.String,java.lang.String)
+    382:386:public static void setBoolForKey(java.lang.String,boolean)
+    389:393:public static void setIntegerForKey(java.lang.String,int)
+    396:400:public static void setFloatForKey(java.lang.String,float)
+    404:408:public static void setDoubleForKey(java.lang.String,double)
+    411:415:public static void setStringForKey(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper$Cocos2dxHelperListener:
+    public abstract void showDialog(java.lang.String,java.lang.String)
+    public abstract void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+org.cocos2dx.lib.Cocos2dxHttpURLConnection
+org.cocos2dx.lib.Cocos2dxJavascriptJavaBridge
+org.cocos2dx.lib.Cocos2dxLocalStorage
+org.cocos2dx.lib.Cocos2dxLocalStorage$DBOpenHelper
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge
+org.cocos2dx.lib.Cocos2dxMusic:
+    80:93:public void preloadBackgroundMusic(java.lang.String)
+    96:135:public void playBackgroundMusic(java.lang.String,boolean)
+    138:148:public void stopBackgroundMusic()
+    151:156:public void pauseBackgroundMusic()
+    159:164:public void resumeBackgroundMusic()
+    167:170:public void rewindBackgroundMusic()
+    173:181:public boolean isBackgroundMusicPlaying()
+    185:190:public void end()
+    193:196:public float getBackgroundVolume()
+    201:213:public void setBackgroundVolume(float)
+    247:271:private android.media.MediaPlayer createMediaplayer(java.lang.String)
+org.cocos2dx.lib.Cocos2dxRenderer:
+    private static final long NANOSECONDSPERSECOND
+    private static final long NANOSECONDSPERMICROSECOND
+    60:61:public static void setAnimationInterval(double)
+org.cocos2dx.lib.Cocos2dxSound:
+    private static final java.lang.String TAG
+    private static final int MAX_SIMULTANEOUS_STREAMS_DEFAULT
+    private static final int MAX_SIMULTANEOUS_STREAMS_I9100
+    private static final float SOUND_RATE
+    private static final int SOUND_PRIORITY
+    private static final int SOUND_QUALITY
+    private static final int INVALID_SOUND_ID
+    private static final int INVALID_STREAM_ID
+    117:131:public int preloadEffect(java.lang.String)
+    136:150:public void unloadEffect(java.lang.String)
+    153:186:public int playEffect(java.lang.String,boolean,float,float,float)
+    190:199:public void stopEffect(int)
+    202:203:public void pauseEffect(int)
+    206:207:public void resumeEffect(int)
+    210:219:public void pauseAllEffects()
+    224:233:public void resumeAllEffects()
+    238:250:public void stopAllEffects()
+    253:253:public float getEffectsVolume()
+    258:277:public void setEffectsVolume(float)
+    280:289:public void end()
+    292:310:public int createSoundIDFromAsset(java.lang.String)
+org.cocos2dx.lib.Cocos2dxSound$SoundInfoForLoadedCompleted:
+    final synthetic org.cocos2dx.lib.Cocos2dxSound this$0
+    357:364:public Cocos2dxSound$SoundInfoForLoadedCompleted(org.cocos2dx.lib.Cocos2dxSound,java.lang.String,int,boolean,float,float,float)
+org.cocos2dx.lib.Cocos2dxTypefaces
+org.cocos2dx.lib.Cocos2dxVideoHelper:
+    private static final int VideoTaskCreate
+    private static final int VideoTaskRemove
+    private static final int VideoTaskSetSource
+    private static final int VideoTaskSetRect
+    private static final int VideoTaskStart
+    private static final int VideoTaskPause
+    private static final int VideoTaskResume
+    private static final int VideoTaskStop
+    private static final int VideoTaskSeek
+    private static final int VideoTaskSetVisible
+    private static final int VideoTaskRestart
+    private static final int VideoTaskKeepRatio
+    private static final int VideoTaskFullScreen
+    static final int KeyEventBack
+    200:205:public static int createVideoWidget()
+    220:224:public static void removeVideoWidget(int)
+    236:242:public static void setVideoUrl(int,int,java.lang.String)
+    261:266:public static void setVideoRect(int,int,int,int,int)
+    276:286:public static void setFullScreenEnabled(int,boolean,int,int)
+    308:312:public static void startVideo(int)
+    322:326:public static void pauseVideo(int)
+    336:340:public static void resumeVideo(int)
+    350:354:public static void stopVideo(int)
+    364:368:public static void restartVideo(int)
+    378:383:public static void seekVideoTo(int,int)
+    393:403:public static void setVideoVisible(int,boolean)
+    418:427:public static void setVideoKeepRatioEnabled(int,boolean)
+org.cocos2dx.lib.Cocos2dxVideoView:
+    private static final int STATE_ERROR
+    private static final int STATE_IDLE
+    private static final int STATE_PREPARING
+    private static final int STATE_PREPARED
+    private static final int STATE_PLAYING
+    private static final int STATE_PAUSED
+    private static final int STATE_PLAYBACK_COMPLETED
+    private static final int EVENT_PLAYING
+    private static final int EVENT_PAUSED
+    private static final int EVENT_STOPPED
+    private static final int EVENT_COMPLETED
+    144:169:public int resolveAdjustedSize(int,int)
+    622:623:public void suspend()
+org.cocos2dx.lib.Cocos2dxWebView
+org.cocos2dx.lib.Cocos2dxWebView$Cocos2dxWebViewClient
+org.cocos2dx.lib.Cocos2dxWebViewHelper:
+    private static native boolean shouldStartLoading(int,java.lang.String)
+    36:36:public static boolean _shouldStartLoading(int,java.lang.String)
+    private static native void didFinishLoading(int,java.lang.String)
+    42:43:public static void _didFinishLoading(int,java.lang.String)
+    private static native void didFailLoading(int,java.lang.String)
+    48:49:public static void _didFailLoading(int,java.lang.String)
+    private static native void onJsCallback(int,java.lang.String)
+    54:55:public static void _onJsCallback(int,java.lang.String)
+    58:71:public static int createWebView()
+    75:85:public static void removeWebView(int)
+    88:97:public static void setVisible(int,boolean)
+    100:109:public static void setWebViewRect(int,int,int,int,int)
+    112:121:public static void setJavascriptInterfaceScheme(int,java.lang.String)
+    124:133:public static void loadData(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    136:145:public static void loadHTMLString(int,java.lang.String,java.lang.String)
+    148:157:public static void loadUrl(int,java.lang.String)
+    160:173:public static void loadFile(int,java.lang.String)
+    176:186:public static void stopLoading(int)
+    189:198:public static void reload(int)
+    201:203:public static java.lang.Object callInMainThread(java.util.concurrent.Callable)
+    207:219:public static boolean canGoBack(int)
+    224:236:public static boolean canGoForward(int)
+    241:250:public static void goBack(int)
+    253:262:public static void goForward(int)
+    265:274:public static void evaluateJS(int,java.lang.String)
+    277:286:public static void setScalesPageToFit(int,boolean)
+    16:16:static synthetic org.cocos2dx.lib.Cocos2dxActivity access$000()
+    16:16:static synthetic android.widget.FrameLayout access$100()
+    16:16:static synthetic android.util.SparseArray access$200()
+org.cocos2dx.lib.Cocos2dxWebViewHelper$1
+org.cocos2dx.lib.Cocos2dxWebViewHelper$10
+org.cocos2dx.lib.Cocos2dxWebViewHelper$11
+org.cocos2dx.lib.Cocos2dxWebViewHelper$12
+org.cocos2dx.lib.Cocos2dxWebViewHelper$13
+org.cocos2dx.lib.Cocos2dxWebViewHelper$14
+org.cocos2dx.lib.Cocos2dxWebViewHelper$15
+org.cocos2dx.lib.Cocos2dxWebViewHelper$16
+org.cocos2dx.lib.Cocos2dxWebViewHelper$17
+org.cocos2dx.lib.Cocos2dxWebViewHelper$2
+org.cocos2dx.lib.Cocos2dxWebViewHelper$3
+org.cocos2dx.lib.Cocos2dxWebViewHelper$4
+org.cocos2dx.lib.Cocos2dxWebViewHelper$5
+org.cocos2dx.lib.Cocos2dxWebViewHelper$6
+org.cocos2dx.lib.Cocos2dxWebViewHelper$7
+org.cocos2dx.lib.Cocos2dxWebViewHelper$8
+org.cocos2dx.lib.Cocos2dxWebViewHelper$9
+org.cocos2dx.lib.GameControllerAdapter
+org.cocos2dx.lib.GameControllerAdapter$1
+org.cocos2dx.lib.GameControllerAdapter$2
+org.cocos2dx.lib.GameControllerAdapter$3
+org.cocos2dx.lib.GameControllerAdapter$4
+org.cocos2dx.lib.GameControllerDelegate
+org.cocos2dx.lib.GameControllerDelegate$ControllerEventListener
+org.cocos2dx.lib.GameControllerUtils

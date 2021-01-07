@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="egame.log_20150625_out_release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/egame.log_20150625_out_release.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cn.egame.terminal.paysdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

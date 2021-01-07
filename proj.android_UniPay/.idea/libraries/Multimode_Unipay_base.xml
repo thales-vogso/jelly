@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Multimode_Unipay_base">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Multimode_Unipay_base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/alipaysdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MobileSecSdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/miniapay.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/utdid4all-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

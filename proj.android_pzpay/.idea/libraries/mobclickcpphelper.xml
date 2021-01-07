@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mobclickcpphelper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/mobclickcpphelper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/pzpay_lib_143_out_CV.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

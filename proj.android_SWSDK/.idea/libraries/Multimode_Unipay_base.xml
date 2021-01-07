@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Multimode_Unipay_base">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Multimode_Unipay_base.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

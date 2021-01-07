@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="EGame">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/alipaysdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cn.egame.terminal.paysdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/egame.log_20150625_out_release.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MobileSecSdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Multimode_UniPay_base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/UPPayAssistEx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/UPPayPluginExStd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/utdid4all-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mmsmsbilling1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

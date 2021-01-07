@@ -1,0 +1,267 @@
+com.android.essdk.eyou.EPayActivity
+com.android.essdk.eyou.EPayActivity: EPayActivity()
+com.android.essdk.eyou.EPayActivity: void onClick(android.view.View)
+com.android.essdk.eyou.PlateService
+com.android.essdk.eyou.PlateService: PlateService()
+com.android.essdk.eyou.sms.MmsSmsReceiver
+com.android.essdk.eyou.sms.MmsSmsReceiver: MmsSmsReceiver()
+com.chukong.cocosplay.client.CocosPlayClient
+com.chukong.cocosplay.client.CocosPlayClient: java.lang.String[] getSearchPaths()
+com.hzpz.pay.jsoup.Connection$Method: com.hzpz.pay.jsoup.Connection$Method[] values()
+com.hzpz.pay.jsoup.Connection$Method: com.hzpz.pay.jsoup.Connection$Method valueOf(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Document$OutputSettings$Syntax: com.hzpz.pay.jsoup.nodes.Document$OutputSettings$Syntax[] values()
+com.hzpz.pay.jsoup.nodes.Document$OutputSettings$Syntax: com.hzpz.pay.jsoup.nodes.Document$OutputSettings$Syntax valueOf(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Document$QuirksMode: com.hzpz.pay.jsoup.nodes.Document$QuirksMode[] values()
+com.hzpz.pay.jsoup.nodes.Document$QuirksMode: com.hzpz.pay.jsoup.nodes.Document$QuirksMode valueOf(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Entities$CoreCharset: com.hzpz.pay.jsoup.nodes.Entities$CoreCharset[] values()
+com.hzpz.pay.jsoup.nodes.Entities$CoreCharset: com.hzpz.pay.jsoup.nodes.Entities$CoreCharset valueOf(java.lang.String)
+com.hzpz.pay.jsoup.nodes.Entities$EscapeMode: com.hzpz.pay.jsoup.nodes.Entities$EscapeMode[] values()
+com.hzpz.pay.jsoup.nodes.Entities$EscapeMode: com.hzpz.pay.jsoup.nodes.Entities$EscapeMode valueOf(java.lang.String)
+com.hzpz.pay.jsoup.parser.HtmlTreeBuilderState: com.hzpz.pay.jsoup.parser.HtmlTreeBuilderState[] values()
+com.hzpz.pay.jsoup.parser.HtmlTreeBuilderState: com.hzpz.pay.jsoup.parser.HtmlTreeBuilderState valueOf(java.lang.String)
+com.hzpz.pay.jsoup.parser.Token$TokenType: com.hzpz.pay.jsoup.parser.Token$TokenType[] values()
+com.hzpz.pay.jsoup.parser.Token$TokenType: com.hzpz.pay.jsoup.parser.Token$TokenType valueOf(java.lang.String)
+com.hzpz.pay.jsoup.parser.TokeniserState: com.hzpz.pay.jsoup.parser.TokeniserState[] values()
+com.hzpz.pay.jsoup.parser.TokeniserState: com.hzpz.pay.jsoup.parser.TokeniserState valueOf(java.lang.String)
+com.hzpz.pay.service.ConnectivityReceiver
+com.hzpz.pay.service.ConnectivityReceiver: ConnectivityReceiver()
+com.hzpz.pay.service.SmsPushReceiver
+com.hzpz.pay.service.SmsPushReceiver: SmsPushReceiver()
+com.umeng.mobclickcpp.Cocos2dxHelper
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String PREFS_NAME
+com.umeng.mobclickcpp.Cocos2dxHelper: android.content.res.AssetManager sAssetManager
+com.umeng.mobclickcpp.Cocos2dxHelper: boolean sAccelerometerEnabled
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String sPackageName
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String sFileDirectory
+com.umeng.mobclickcpp.Cocos2dxHelper: android.content.Context sContext
+com.umeng.mobclickcpp.Cocos2dxHelper: com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener sCocos2dxHelperListener
+com.umeng.mobclickcpp.Cocos2dxHelper: void <clinit>()
+com.umeng.mobclickcpp.Cocos2dxHelper: Cocos2dxHelper()
+com.umeng.mobclickcpp.Cocos2dxHelper: void init(android.content.Context,com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener)
+com.umeng.mobclickcpp.Cocos2dxHelper: void nativeSetApkPath(java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper: void nativeSetContext(android.content.Context)
+com.umeng.mobclickcpp.Cocos2dxHelper: void nativeSetEditTextDialogResult(byte[])
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String getCocos2dxPackageName()
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String getCocos2dxWritablePath()
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String getCurrentLanguage()
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String getDeviceModel()
+com.umeng.mobclickcpp.Cocos2dxHelper: android.content.res.AssetManager getAssetManager()
+com.umeng.mobclickcpp.Cocos2dxHelper: void terminateProcess()
+com.umeng.mobclickcpp.Cocos2dxHelper: void showDialog(java.lang.String,java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper: void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setEditTextDialogResult(java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper: int getDPI()
+com.umeng.mobclickcpp.Cocos2dxHelper: boolean getBoolForKey(java.lang.String,boolean)
+com.umeng.mobclickcpp.Cocos2dxHelper: int getIntegerForKey(java.lang.String,int)
+com.umeng.mobclickcpp.Cocos2dxHelper: float getFloatForKey(java.lang.String,float)
+com.umeng.mobclickcpp.Cocos2dxHelper: double getDoubleForKey(java.lang.String,double)
+com.umeng.mobclickcpp.Cocos2dxHelper: java.lang.String getStringForKey(java.lang.String,java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setBoolForKey(java.lang.String,boolean)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setIntegerForKey(java.lang.String,int)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setFloatForKey(java.lang.String,float)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setDoubleForKey(java.lang.String,double)
+com.umeng.mobclickcpp.Cocos2dxHelper: void setStringForKey(java.lang.String,java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper: void access$0(byte[])
+com.umeng.mobclickcpp.Cocos2dxHelper$1
+com.umeng.mobclickcpp.Cocos2dxHelper$1: byte[] val$bytesUTF8
+com.umeng.mobclickcpp.Cocos2dxHelper$1: Cocos2dxHelper$1(byte[])
+com.umeng.mobclickcpp.Cocos2dxHelper$1: void run()
+com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener
+com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener: void showDialog(java.lang.String,java.lang.String)
+com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener: void showEditTextDialog(java.lang.String,java.lang.String,int,int,int,int)
+com.umeng.mobclickcpp.Cocos2dxHelper$Cocos2dxHelperListener: void runOnGLThread(java.lang.Runnable)
+com.umeng.mobclickcpp.DeviceConfig
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String LOG_TAG
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String UNKNOW
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String MOBILE_NETWORK
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String WIFI
+com.umeng.mobclickcpp.DeviceConfig: int DEFAULT_TIMEZONE
+com.umeng.mobclickcpp.DeviceConfig: void <clinit>()
+com.umeng.mobclickcpp.DeviceConfig: DeviceConfig()
+com.umeng.mobclickcpp.DeviceConfig: boolean isAppInstalled(java.lang.String,android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isChinese(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.util.Set getInstalledPackages(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isScreenPortrait(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getAppVersionCode(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getAppVersionName(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean checkPermission(android.content.Context,java.lang.String)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getAppLabel(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String[] getGPU(javax.microedition.khronos.opengles.GL10)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getCPU()
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getDeviceId(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getDeviceIdUmengMD5(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getNetworkOperatorName(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getDisplayResolution(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String[] getNetworkAccessMode(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isWiFiAvailable(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: android.location.Location getLocation(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isOnline(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isSdCardWrittenable()
+com.umeng.mobclickcpp.DeviceConfig: int getTimeZone(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String[] getLocaleInfo(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.util.Locale getLocale(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getAppkey(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getMac(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getResolution(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: int reflectMetrics(java.lang.Object,java.lang.String)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getOperator(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getTimeString(java.util.Date)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getToday()
+com.umeng.mobclickcpp.DeviceConfig: java.util.Date toTime(java.lang.String)
+com.umeng.mobclickcpp.DeviceConfig: int getIntervalSeconds(java.util.Date,java.util.Date)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getChannel(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getPackageName(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: java.lang.String getApplicationLable(android.content.Context)
+com.umeng.mobclickcpp.DeviceConfig: boolean isDebug(android.content.Context)
+com.umeng.mobclickcpp.MobClickCppHelper
+com.umeng.mobclickcpp.MobClickCppHelper: android.content.Context mCtx
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String DeviceId
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String IdMd5
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Mac
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Model
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String OsVersion
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Resolution
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Cpu
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String GpuVender
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String GpuRender
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Board
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Brand
+com.umeng.mobclickcpp.MobClickCppHelper: long Manutime
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Manufacturer
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Manuid
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Name
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String AppVersion
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String VersionCode
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Package
+com.umeng.mobclickcpp.MobClickCppHelper: int Timezone
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Country
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Language
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Access
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String SubAccess
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Carrier
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String IMEI
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String AndroidId
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String UTDId
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String Serial
+com.umeng.mobclickcpp.MobClickCppHelper: void <clinit>()
+com.umeng.mobclickcpp.MobClickCppHelper: MobClickCppHelper()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getDeviceId()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getIdMd5()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getMac()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getModel()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getOsVersion()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getResolution()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getCpu()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getGpuVender()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getGpuRender()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getBoard()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getBrand()
+com.umeng.mobclickcpp.MobClickCppHelper: long getManutime()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getManufacturer()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getManuid()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getName()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getAppVersion()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getVersionCode()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getPackage()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getTimezone()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getCountry()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getLanguage()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getAccess()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getSubAccess()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getCarrier()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getIMEI()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getAndroidId()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getUTDId()
+com.umeng.mobclickcpp.MobClickCppHelper: java.lang.String getSerial()
+com.umeng.mobclickcpp.MobClickCppHelper: void loadLibrary()
+com.umeng.mobclickcpp.MobClickCppHelper: void init(android.content.Context)
+com.umeng.mobclickcpp.MobClickCppHelper: android.content.Context access$0()
+com.umeng.mobclickcpp.MobClickCppHelper$AndroidIdGetter
+com.umeng.mobclickcpp.MobClickCppHelper$AndroidIdGetter: MobClickCppHelper$AndroidIdGetter()
+com.umeng.mobclickcpp.MobClickCppHelper$AndroidIdGetter: java.lang.String getAndroidId()
+com.umeng.mobclickcpp.MobClickCppHelper$AndroidIdGetter: java.lang.String access$0()
+com.umeng.mobclickcpp.MobClickCppHelper$IMEIGetter
+com.umeng.mobclickcpp.MobClickCppHelper$IMEIGetter: MobClickCppHelper$IMEIGetter()
+com.umeng.mobclickcpp.MobClickCppHelper$IMEIGetter: java.lang.String getIMEI()
+com.umeng.mobclickcpp.MobClickCppHelper$IMEIGetter: java.lang.String access$0()
+com.umeng.mobclickcpp.MobClickCppHelper$SerialGetter
+com.umeng.mobclickcpp.MobClickCppHelper$SerialGetter: MobClickCppHelper$SerialGetter()
+com.umeng.mobclickcpp.MobClickCppHelper$SerialGetter: java.lang.String getSerial()
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: MobClickCppHelper$UTDIdGetter()
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: java.lang.String readStreamToString(java.io.InputStream)
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: java.lang.String readUTDId()
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: java.lang.String parseId(java.lang.String)
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: java.io.File getFile()
+com.umeng.mobclickcpp.MobClickCppHelper$UTDIdGetter: java.lang.String access$0()
+com.unicom.wounipaysms.duandai.WoUniPay$OrderType: com.unicom.wounipaysms.duandai.WoUniPay$OrderType[] values()
+com.unicom.wounipaysms.duandai.WoUniPay$OrderType: com.unicom.wounipaysms.duandai.WoUniPay$OrderType valueOf(java.lang.String)
+jellyPZ.R$drawable: int icon
+jellyPZ.R$string: int app_name
+org.cocos2dx.cpp.AppActivity
+org.cocos2dx.cpp.AppActivity: AppActivity()
+org.cocos2dx.cpp.AppActivity: void deliverProduct(java.lang.String)
+org.cocos2dx.cpp.AppActivity: void payFaile()
+org.cocos2dx.lib.Cocos2dxAccelerometer
+org.cocos2dx.lib.Cocos2dxAccelerometer: void onSensorChanged(float,float,float,long)
+org.cocos2dx.lib.Cocos2dxActivity
+org.cocos2dx.lib.Cocos2dxActivity: Cocos2dxActivity()
+org.cocos2dx.lib.Cocos2dxActivity: int[] getGLContextAttrs()
+org.cocos2dx.lib.Cocos2dxBitmap
+org.cocos2dx.lib.Cocos2dxBitmap: void nativeInitBitmapDC(int,int,byte[])
+org.cocos2dx.lib.Cocos2dxEditText: void setCocos2dxGLSurfaceView(org.cocos2dx.lib.Cocos2dxGLSurfaceView)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxGLSurfaceView getInstance()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxRenderer(org.cocos2dx.lib.Cocos2dxRenderer)
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: java.lang.String getContentText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: org.cocos2dx.lib.Cocos2dxEditText getCocos2dxEditText()
+org.cocos2dx.lib.Cocos2dxGLSurfaceView: void setCocos2dxEditText(org.cocos2dx.lib.Cocos2dxEditText)
+org.cocos2dx.lib.Cocos2dxHelper
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetApkPath(java.lang.String)
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetEditTextDialogResult(byte[])
+org.cocos2dx.lib.Cocos2dxHelper: void nativeSetContext(android.content.Context,android.content.res.AssetManager)
+org.cocos2dx.lib.Cocos2dxJavascriptJavaBridge
+org.cocos2dx.lib.Cocos2dxJavascriptJavaBridge: int evalString(java.lang.String)
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge: int callLuaFunctionWithString(int,java.lang.String)
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge: int callLuaGlobalFunctionWithString(java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge: int retainLuaFunction(int)
+org.cocos2dx.lib.Cocos2dxLuaJavaBridge: int releaseLuaFunction(int)
+org.cocos2dx.lib.Cocos2dxRenderer
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesBegin(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesEnd(int,float,float)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesMove(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeTouchesCancel(int[],float[],float[])
+org.cocos2dx.lib.Cocos2dxRenderer: boolean nativeKeyDown(int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeRender()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInit(int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnSurfaceChanged(int,int)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnPause()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeOnResume()
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeInsertText(java.lang.String)
+org.cocos2dx.lib.Cocos2dxRenderer: void nativeDeleteBackward()
+org.cocos2dx.lib.Cocos2dxRenderer: java.lang.String nativeGetContentText()
+org.cocos2dx.lib.Cocos2dxVideoHelper
+org.cocos2dx.lib.Cocos2dxVideoHelper: void nativeExecuteVideoCallback(int,int)
+org.cocos2dx.lib.Cocos2dxVideoView: void setVisibility(int)
+org.cocos2dx.lib.Cocos2dxVideoView: void setVideoFileName(java.lang.String)
+org.cocos2dx.lib.Cocos2dxVideoView: void setVideoURL(java.lang.String)
+org.cocos2dx.lib.Cocos2dxVideoView: void setKeepRatio(boolean)
+org.cocos2dx.lib.Cocos2dxVideoView: void setOnPreparedListener(android.media.MediaPlayer$OnPreparedListener)
+org.cocos2dx.lib.Cocos2dxVideoView: void setOnCompletionListener(org.cocos2dx.lib.Cocos2dxVideoView$OnVideoEventListener)
+org.cocos2dx.lib.Cocos2dxVideoView: void setOnErrorListener(android.media.MediaPlayer$OnErrorListener)
+org.cocos2dx.lib.Cocos2dxVideoView: int getDuration()
+org.cocos2dx.lib.Cocos2dxVideoView: int getCurrentPosition()
+org.cocos2dx.lib.Cocos2dxVideoView: int getBufferPercentage()
+org.cocos2dx.lib.Cocos2dxVideoView: int getAudioSessionId()
+org.cocos2dx.lib.Cocos2dxWebView: void setJavascriptInterfaceScheme(java.lang.String)
+org.cocos2dx.lib.Cocos2dxWebView: void setScalesPageToFit(boolean)
+org.cocos2dx.lib.Cocos2dxWebViewHelper
+org.cocos2dx.lib.Cocos2dxWebViewHelper: boolean shouldStartLoading(int,java.lang.String)
+org.cocos2dx.lib.Cocos2dxWebViewHelper: void didFinishLoading(int,java.lang.String)
+org.cocos2dx.lib.Cocos2dxWebViewHelper: void didFailLoading(int,java.lang.String)
+org.cocos2dx.lib.Cocos2dxWebViewHelper: void onJsCallback(int,java.lang.String)
+org.cocos2dx.lib.GameControllerAdapter
+org.cocos2dx.lib.GameControllerAdapter: void nativeControllerConnected(java.lang.String,int)
+org.cocos2dx.lib.GameControllerAdapter: void nativeControllerDisconnected(java.lang.String,int)
+org.cocos2dx.lib.GameControllerAdapter: void nativeControllerButtonEvent(java.lang.String,int,int,boolean,float,boolean)
+org.cocos2dx.lib.GameControllerAdapter: void nativeControllerAxisEvent(java.lang.String,int,int,float,boolean)
